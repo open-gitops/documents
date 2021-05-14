@@ -33,7 +33,6 @@ These principles were derived from modern software operations but are rooted in 
 
 - These differences could be due to the actual state drifting from the desired state, or the desired state changing intentionally.
 - The source of drift doesn't matter. Contrary to CIops, _any_ drift will trigger a reconciliation
-- By "continuous" we adopt the industry standard term to mean reconcilation continues to happen, not that it must be instantaneous
 
 ### Principle 4 Notes
 
@@ -41,15 +40,19 @@ These principles were derived from modern software operations but are rooted in 
 
 ## Glossary
 
-- **State Store**
+- ### Continuous
 
-    A system for storing versioned, immutable Desired States that provides access control and auditing on the changes to the Desired State. Git may be configured as a State Store, but [special precautions must be taken](recipes/SETTING_UP_GIT.md).
+    By "continuous" we adopt the industry standard term to mean reconcilation continues to happen, not that it must be instantaneous.
 
-- **Desired State**
+- ### Declarative Description
+
+    Describing the desired state or behavior of a system without specifying how that state will be achieved, thereby separating between configuration - the desired state - and implementation - the commands, API calls, scripts ... that actually achieve the desired state described in the declarative description.
+
+- ### Desired State
 
     The aggregate of all configuration data for a system form its _Desired State_ which is defined as data sufficient to recreate the system so that instances of the system are behaviourally indistinguishable.
 
-- **Software System**
+- ### Software System
 
     One or more Runtime environments consisting of resources under management.
     In each Runtime, management Agents to act on resources according to security policies.
@@ -57,6 +60,6 @@ These principles were derived from modern software operations but are rooted in 
     One or more Administrators who are responsible for operating the runtime environments ie. installing, starting, stopping and updating software, code, configuration, etc.
     A set of policies controlling access and management of repositories, deployments, runtimes.
 
-- **Declarative Description**
+- #### State Store
 
-    Describing the desired state or behavior of a system without specifying how that state will be achieved, thereby separating between configuration - the desired state - and implementation - the commands, API calls, scripts ... that actually achieve the desired state described in the declarative description.
+    A system for storing versioned, immutable Desired States that provides access control and auditing on the changes to the Desired State. Git may be configured as a State Store, but [special precautions must be taken](recipes/SETTING_UP_GIT.md).
