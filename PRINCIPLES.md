@@ -36,7 +36,7 @@ These principles were derived from modern software operations but are rooted in 
 
 ### Principle 4 Notes
 
-- We talk here about "regular operations". In an emergency also other mode of operation, e.g. manual intervention, should be considered - followed by a reconsiliation of the "tainted" system with the declared state. → resolve the conflict between "GitOps principle" and "I need to deal with problems that GitOps doesn't cover"
+- We talk here about "regular operations." In an emergency, other modes of operations, e.g. manual intervention, should be considered - followed by a reconciliation of the "tainted" system with the declared state. → resolve the conflict between "GitOps principle" and "I need to deal with problems that GitOps doesn't cover"
 
 ## Glossary
 
