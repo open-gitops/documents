@@ -12,7 +12,7 @@ These principles were derived from modern software operations but are rooted in 
 
 1. **The principle of declarative desired state**
 
-    A system managed by GitOps must have its _Desired State_ expressed declaritively as data in a format writable and readable by both humans and machines.
+    A system managed by GitOps must have its _Desired State_ expressed declaratively as data in a format writable and readable by both humans and machines.
 
 2. **The principle of immutable desired state versions**
 
