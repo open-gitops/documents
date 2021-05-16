@@ -42,7 +42,7 @@ These principles were derived from modern software operations but are rooted in 
 
 - ### Continuous
 
-    By "continuous" we adopt the industry standard term to mean reconcilation continues to happen, not that it must be instantaneous.
+    By "continuous" we adopt the industry standard term to mean reconciliation continues to happen, not that it must be instantaneous.
 
 - ### Declarative Description
 
