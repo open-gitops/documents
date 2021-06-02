@@ -24,8 +24,3 @@ See [How to Get Involved](https://github.com/gitops-working-group/gitops-working
 ## Code of Conduct
 
 The OpenGitOps community follows the [CNCF Code of Conduct](https://github.com/open-gitops/.github/blob/main/CODE_OF_CONDUCT.md).
-
-## Licenses
-
-- Code: [Apache 2.0](LICENSES/APACHE-2.0.txt). [html](http://www.apache.org/licenses/LICENSE-2.0.html)
-- Non-code: [CC BY 4.0](LICENSES/CC-BY-4.0.txt). [html](https://creativecommons.org/licenses/by/4.0/legalcode)
