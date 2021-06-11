@@ -32,7 +32,7 @@ These principles were derived from modern software operations but are rooted in 
 ### Principle 3 Notes
 
 - These differences could be due to the actual state drifting from the desired state, or the desired state changing intentionally.
-- The source of drift doesn't matter. Contrary to CIops, _any_ drift will trigger a reconciliation
+- The source of drift doesn't matter. Contrary to CI Ops, _any_ drift will trigger a reconciliation
 
 ### Principle 4 Notes
 
