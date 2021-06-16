@@ -10,7 +10,7 @@ These principles were derived from modern software operations but are rooted in 
 
 ## Principles
 
-1. **Use declarative infrastructure**
+1. **Define state declaratively**
 
     A system managed by GitOps must have its _Desired State_ expressed declaratively as data in a format writable and readable by both humans and machines.
 
@@ -18,7 +18,7 @@ These principles were derived from modern software operations but are rooted in 
 
     _Desired State_ is stored in a way that supports versioning, immutability of versions, and retains a complete version history.
 
-3. **Use continuous state reconciliation**
+3. **Reconcile state continiously**
 
     Software agents continuously, and automatically, compare a system's _Actual State_ to its _Desired State_.
     If the actual and desired states differ for any reason, automated actions to reconcile them are initiated.
