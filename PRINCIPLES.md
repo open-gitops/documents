@@ -18,7 +18,7 @@ These principles were derived from modern software operations but are rooted in 
 
     _Desired State_ is stored in a way that supports versioning, immutability of versions, and retains a complete version history.
 
-3. **Reconcile state continiously**
+3. **Reconcile state continuously**
 
     Software agents continuously, and automatically, compare a system's _Actual State_ to its _Desired State_.
     If the actual and desired states differ for any reason, automated actions to reconcile them are initiated.
