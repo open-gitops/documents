@@ -37,11 +37,11 @@ These principles were derived from modern software operations but are rooted in 
 
 - ### Continuous
 
-    By "continuous" we adopt the industry standard term to mean reconciliation continues to happen, not that it must be instantaneous.
+    By "continuous" we adopt the industry standard term to mean _Reconciliation_ continues to happen, not that it must be instantaneous.
 
 - ### Declarative Description
 
-    Describing the desired state or behavior of a system without specifying how that state will be achieved, thereby separating between configuration - the desired state - and implementation - the commands, API calls, scripts ... that actually achieve the desired state described in the declarative description.
+    Describing the desired state or behavior of a system without specifying how that state will be achieved, thereby separating between configuration (the desired state) and implementation (the commands, API calls, scripts etc.) that actually achieves the desired state described in the declarative description.
 
 - ### Desired State
 
@@ -65,6 +65,6 @@ These principles were derived from modern software operations but are rooted in 
     One or more Administrators who are responsible for operating the runtime environments ie. installing, starting, stopping and updating software, code, configuration, etc.
     A set of policies controlling access and management of repositories, deployments, runtimes.
 
-- #### State Store
+- ### State Store
 
     A system for storing versioned, immutable Desired States that provides access control and auditing on the changes to the Desired State. Git may be configured as a State Store, but [special precautions must be taken](recipes/SETTING_UP_GIT.md).
