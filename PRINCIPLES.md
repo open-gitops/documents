@@ -67,4 +67,7 @@ These principles were derived from modern software operations but are rooted in 
 
 - ### State Store
 
-    A system for storing versioned, immutable Desired States that provides access control and auditing on the changes to the Desired State. Git may be configured as a State Store, but [special precautions must be taken](recipes/SETTING_UP_GIT.md).
+    A system for storing immutable versions of _Desired State_ declarations.
+    This state store should provide access control and auditing on the changes to the Desired State.
+    Git is most often used as this State Store, but other systems may be used.
+    In all cases these must be properly configured, and special precautions must be taken, to comply with requirements set out in the GitOps Principles.
