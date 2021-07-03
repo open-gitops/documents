@@ -27,13 +27,14 @@ These principles were derived from modern software operations but are rooted in 
 
     The only mechanism through which the system is intentionally operated on is through these principles.
 
-## Notes
-
-### Principle 4 Notes
-
-- We talk here about "regular operations." In an emergency, other modes of operations, e.g. manual intervention, should be considered - followed by a reconciliation of the "tainted" system with the declared state. → resolve the conflict between "GitOps principle" and "I need to deal with problems that GitOps doesn't cover"
-
 ## Glossary
+
+- ### Break Glass
+
+    The temporary suspension of GitOps principles, most often pausing automated _Reconciliation_.
+    While these principles apply to "regular operations," it may sometimes be necessary to pause or sidestep them during an emergency such as incident management.
+    In these cases, other modes of operations should be considered (e.g. manual intervention), followed by any necessary updates to the desired state declarations, and finally resuming reconciliation of the manually changed system with the updated declarations again.
+    Pragmatic exceptions to these guiding principles are expected from time to time during the journey toward a system being fully managed by GitOps.
 
 - ### Continuous
 
