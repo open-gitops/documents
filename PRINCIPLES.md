@@ -1,4 +1,4 @@
-# GitOps Principles v0.1.0
+# GitOps Principles v0.2.0
 
 ## Summary
 
