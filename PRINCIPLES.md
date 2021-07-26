@@ -10,20 +10,20 @@ These principles were derived from modern software operations but are rooted in 
 
 ## Principles
 
-1. **The system's desired state is described declaratively**
+1. **Desired System State Is Declarative**
 
     A system managed by GitOps must have its _Desired State_ expressed declaratively as data in a format writable and readable by both humans and machines.
 
-2. **State declarations are stored as immutable versions**
+2. **Declarations Are Versioned and Immutable**
 
     _Desired State_ is stored in a way that supports versioning, immutability of versions, and retains a complete version history.
 
-3. **State reconciliation is automated and continuous**
+3. **State Reconciliation Is Continuous**
 
     Software agents continuously, and automatically, compare a system's state to its _Desired State_.
     If the actual and desired states differ for any reason, automated actions to reconcile them are initiated.
 
-4. **Intentional change happens only through changing state declarations**
+4. **Intentional Changes Only Through Versioning**
 
     The only mechanism through which the system is intentionally changed is through new versions of the _Desired State_.
 
