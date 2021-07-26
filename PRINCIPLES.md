@@ -21,7 +21,7 @@ These principles were derived from modern software operations but are rooted in 
 3. **State Reconciliation Is Continuous**
 
     Software agents continuously, and automatically, compare a system's state to its _Desired State_.
-    If the actual and desired states differ for any reason, automated actions to reconcile them are initiated.
+    If these states differ for any reason, automated actions to reconcile them are initiated.
 
 4. **Intentional Changes Only Through Versioning**
 
