@@ -29,11 +29,6 @@ These principles were derived from modern software operations but are rooted in 
 
 ## Notes
 
-### Principle 3 Notes
-
-- These differences could be due to the actual state drifting from the desired state, or the desired state changing intentionally.
-- The source of drift doesn't matter. Contrary to CIops, _any_ drift will trigger a reconciliation
-
 ### Principle 4 Notes
 
 - We talk here about "regular operations." In an emergency, other modes of operations, e.g. manual intervention, should be considered - followed by a reconciliation of the "tainted" system with the declared state. → resolve the conflict between "GitOps principle" and "I need to deal with problems that GitOps doesn't cover"
@@ -51,6 +46,16 @@ These principles were derived from modern software operations but are rooted in 
 - ### Desired State
 
     The aggregate of all configuration data for a system form its _Desired State_ which is defined as data sufficient to recreate the system so that instances of the system are behaviourally indistinguishable.
+
+- ### Drift
+
+    When a system's _Actual State_ changes for any reason other than its versioned _Desired State_ declarations having changed, we say that the system has drifted from it's _Desired State_.
+
+- ### Reconciliation
+
+    The process of ensuring that the _Actual State_ of a sytem matches it's versioned _Desired State_ declarations.
+    Contrary to CIops, any divergence between the two will trigger reconciliation, regardless of where changes occured.
+    Divergence could be due to the actual state unintentionally _Drifting_ from the desired state declarations, or a new desired state declaration version having been changed intentionally.
 
 - ### Software System
 
