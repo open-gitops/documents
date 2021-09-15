@@ -31,18 +31,18 @@ These principles were derived from modern software operations but are rooted in 
 
 - ### Break Glass
 
-    The temporary suspension of GitOps principles, most often pausing automated _Reconciliation_.
-    While these principles apply to "regular operations," it may sometimes be necessary to pause or sidestep them during an emergency such as incident management.
-    In these cases, other modes of operations should be considered (e.g. manual intervention), followed by any necessary updates to the desired state declarations, and finally resuming reconciliation of the manually changed system with the updated declarations again.
+    The temporary suspension of GitOps principles, often accomplished by pausing automated _Reconciliation_.
+    While these principles apply to typical operations, it may at times be necessary to temporarily pause reconciliation, for example during incident management activities.
+    In these cases, other modes of operations should be considered (e.g. manual intervention), followed by any necessary updates to the desired state declarations, and finally resuming reconciliation of the system with the updated declarations.
     Pragmatic exceptions to these guiding principles are expected from time to time during the journey toward a system being fully managed by GitOps.
 
 - ### Continuous
 
-    By "continuous" we adopt the industry standard term to mean _Reconciliation_ continues to happen, not that it must be instantaneous.
+    By "continuous" we adopt the industry standard to mean that _Reconciliation_ continues to happen, not that it must be instantaneous.
 
 - ### Declarative Description
 
-    Describing the desired state or behavior of a system without specifying how that state will be achieved, thereby separating between configuration (the desired state) and implementation (the commands, API calls, scripts etc.) that actually achieves the desired state described in the declarative description.
+    Describing the desired state or behavior of a system without specifying how that state will be achieved, thereby separating configuration (the desired state) from the implementation (commands, API calls, scripts etc.) that actually achieves the desired state described in the declarative description.
 
 - ### Desired State
 
@@ -50,11 +50,11 @@ These principles were derived from modern software operations but are rooted in 
 
 - ### Drift
 
-    When a system's _Actual State_ changes for any reason other than its versioned _Desired State_ declarations having changed, we say that the system has drifted from it's _Desired State_.
+    When a system's _Actual State_ changes for any reason other than its versioned _Desired State_ declarations having changed, we say that the system has drifted from its _Desired State_.
 
 - ### Reconciliation
 
-    The process of ensuring that the _Actual State_ of a sytem matches it's versioned _Desired State_ declarations.
+    The process of ensuring that the _Actual State_ of a sytem matches its versioned _Desired State_ declarations.
     Contrary to CIops, any divergence between the two will trigger reconciliation, regardless of where changes occured.
     Divergence could be due to the actual state unintentionally _Drifting_ from the desired state declarations, or a new desired state declaration version having been changed intentionally.
 
@@ -70,5 +70,5 @@ These principles were derived from modern software operations but are rooted in 
 
     A system for storing immutable versions of _Desired State_ declarations.
     This state store should provide access control and auditing on the changes to the Desired State.
-    Git is most often used as this State Store, but other systems may be used.
-    In all cases these must be properly configured, and special precautions must be taken, to comply with requirements set out in the GitOps Principles.
+    Git is the canonical example used as this State Store, and where GitOps derived its name, but but any other system that meets this criteria may be used.
+    In all cases these must be properly configured, and special precautions must be taken to comply with requirements set out in the GitOps Principles.
