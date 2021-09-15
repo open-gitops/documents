@@ -1,14 +1,7 @@
 # GitOps Principles v0.1.0
 
-## Summary
-
 GitOps is a set of principles for operating and managing software systems.
-
-When using GitOps, the _Desired State_ of a system or subsystem is defined declaratively as versioned, immutable data, and the running system's configuration is continuously derived from this data.
-
-These principles were derived from modern software operations but are rooted in pre-existing and widely adopted best practices.
-
-## Principles
+These principles are derived from modern software operations, but are also rooted in pre-existing and widely adopted best practices.
 
 The desired state of a GitOps managed system must be:
 
