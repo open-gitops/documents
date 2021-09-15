@@ -10,6 +10,8 @@ These principles were derived from modern software operations but are rooted in 
 
 ## Principles
 
+The desired state of a GitOps managed system must be:
+
 1. **Declarative**
 
     A system managed by GitOps must have its desired state expressed declaratively.
