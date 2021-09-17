@@ -43,7 +43,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## State Store
 
-    A system for storing immutable versions of _Desired State_ declarations.
+    A system for storing immutable versions of [Desired State](#desired-state) declarations.
     This state store should provide access control and auditing on the changes to the Desired State.
-    Git is the canonical example used as this State Store, and where GitOps derived its name, but but any other system that meets this criteria may be used.
-    In all cases these must be properly configured, and special precautions must be taken to comply with requirements set out in the GitOps Principles.
+    Git, from which GitOps derives its name, is the canonical example used as this state store but any other system that meets these criteria may be used.
+    In all cases, these state stores must be properly configured and special precautions must be taken to comply with requirements set out in the GitOps Principles.
