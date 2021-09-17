@@ -29,7 +29,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
     The process of ensuring that the _Actual State_ of a system matches its versioned _Desired State_ declarations.
     Contrary to CIops, any divergence between the two will trigger reconciliation, regardless of where changes occured.
-    Divergence could be due to the actual state unintentionally _Drifting_ from the desired state declarations, or a new desired state declaration version having been changed intentionally.
+    Divergence could be due to the actual state unintentionally [drifting](#drift) from the desired state declarations, or a new desired state declaration version having been changed intentionally.
 
 - ## Software System
 
