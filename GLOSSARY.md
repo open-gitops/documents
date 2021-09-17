@@ -19,7 +19,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## Desired State
 
-    The aggregate of all configuration data for a system form its desired state which is defined as data sufficient to recreate the system so that instances of the system are behaviourally indistinguishable, but do not include the state of any data stored within the system, eg. database contents. 
+    The aggregate of all configuration data for a system form its desired state which is defined as data sufficient to recreate the system so that instances of the system are behaviourally indistinguishable, but do not include the state of any data stored within the system, eg. database contents.
 
 - ## Drift
 
@@ -43,7 +43,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## State Store
 
-    A system for storing immutable versions of [Desired State](#desired-state) declarations.
+    A system for storing immutable versions of [desired state](#desired-state) declarations.
     This state store should provide access control and auditing on the changes to the Desired State.
     Git, from which GitOps derives its name, is the canonical example used as this state store but any other system that meets these criteria may be used.
     In all cases, these state stores must be properly configured and special precautions must be taken to comply with requirements set out in the GitOps Principles.
