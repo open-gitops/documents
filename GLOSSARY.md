@@ -11,7 +11,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## Continuous
 
-    By "continuous" we adopt the industry standard to mean that _Reconciliation_ continues to happen, not that it must be instantaneous.
+    By "continuous" we adopt the industry standard to mean that [reconciliation](#reconciliation) continues to happen, not that it must be instantaneous.
 
 - ## Declarative Description
 
