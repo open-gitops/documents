@@ -37,7 +37,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
   - One or more runtime environments consisting of resources under management
   - In each runtime, the management agents which act on resources according to security policies
-  - One or more software Repositories for storing deployable artifacts that may be loaded into the runtime environments, eg. configuration files, code, binaries and packages
+  - One or more software repositories for storing deployable artifacts that may be loaded into the runtime environments, eg. configuration files, code, binaries, and packages
   - One or more Administrators who are responsible for operating the runtime environments ie. installing, starting, stopping and updating software, code, configuration, etc
   - A set of policies controlling access and management of repositories, deployments, runtimes
 
