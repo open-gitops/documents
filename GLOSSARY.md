@@ -36,7 +36,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
   We currently understand a software system to include:
 
   - One or more Runtime environments consisting of resources under management
-  - In each Runtime, the management Agents which act on resources according to security policies
+  - In each runtime, the management agents which act on resources according to security policies
   - One or more software Repositories for storing deployable artifacts that may be loaded into the runtime environments, eg. configuration files, code, binaries and packages
   - One or more Administrators who are responsible for operating the runtime environments ie. installing, starting, stopping and updating software, code, configuration, etc
   - A set of policies controlling access and management of repositories, deployments, runtimes
