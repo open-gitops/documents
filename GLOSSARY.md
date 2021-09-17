@@ -4,7 +4,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## Break Glass
 
-    The temporary suspension of GitOps principles, often accomplished by pausing automated _Reconciliation_.
+    The temporary suspension of GitOps principles, often accomplished by pausing automated [reconciliation](#reconciliation).
     While these principles apply to typical operations, it may at times be necessary to temporarily pause reconciliation, for example during incident management activities.
     In these cases, other modes of operations should be considered (e.g. manual intervention), followed by any necessary updates to the desired state declarations, and finally resuming reconciliation of the system with the updated declarations.
     Pragmatic exceptions to these guiding principles are expected from time to time during the journey toward a system being fully managed by GitOps.
