@@ -23,7 +23,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## Drift
 
-    When a system's _Actual State_ changes for any reason other than its versioned _Desired State_ declarations having changed, we say that the system has drifted from its _Desired State_.
+    When a system's actual state changes for any reason other than its versioned [desired state](#desired-state) declarations having changed, we say that the system has drifted from its desired state.
 
 - ## Reconciliation
 
