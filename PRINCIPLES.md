@@ -1,4 +1,4 @@
-# GitOps Principles {{version}}
+# GitOps Principles v1.0.0-rc.1
 
 GitOps is a set of principles for operating and managing software systems.
 These principles are derived from modern software operations, but are also rooted in pre-existing and widely adopted best practices.
