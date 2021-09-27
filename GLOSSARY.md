@@ -8,11 +8,11 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## Declarative Description
 
-    A configuration that describes the desired operating state of a system without specifying procedures for how that state will be acheived. This separates configuration (the desired state) from the implementation (commands, API calls, scripts etc.) used to achieve that state.
+    A configuration that describes the desired operating state of a system without specifying procedures for how that state will be achieved. This separates configuration (the desired state) from the implementation (commands, API calls, scripts etc.) used to achieve that state.
 
 - ## Desired State
 
-    The aggregate of all configiuration data needed to start, bootstrap, recreate, run, and recover a system. This does not include data stored within a system, eg. database contents.
+    The aggregate of all configuration data needed to start, bootstrap, recreate, run, and recover a system. This does not include data stored within a system, eg. database contents.
 
 - ## Drift
 
@@ -21,7 +21,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 - ## Reconciliation
 
     The process of ensuring the actual state of a system matches its [desired state](#desired-state) declarations.
-    Contrary to "CIops", any divergence between the two will trigger reconciliation, regardless of where changes occured.
+    Contrary to "CIops", any divergence between the two will trigger reconciliation, regardless of where changes occurred.
     Divergence could be due to the actual state unintentionally [drifting](#drift) from the desired state declarations, or a new desired state declaration version having been changed intentionally.
 
 - ## Software System
