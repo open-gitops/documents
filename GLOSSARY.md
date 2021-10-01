@@ -17,7 +17,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## Drift
 
-    When a system's actual state changes for any reason other than its [desired state](#desired-state) declarations having changed. When this occurs, the system has drifted from its desired state.
+    When a system's actual state has moved or is in the process of moving away from the [desired state](#desired-state), this is often referred to as drift.
 
 - ## Reconciliation
 
