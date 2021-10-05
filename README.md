@@ -5,11 +5,14 @@
 <img src="https://openmoji.org/data/color/svg/1F4D1.svg" alt="Bookmark Tabs emoji Unicode 1F4D1. OpenMoji CC BY-SA 4.0" width="150" valign="middle"></p>
 
 This repository holds lasting documents for the OpenGitOps project, which should be versioned and [released](https://github.com/open-gitops/documents/releases) together.
+The `main` branch is a work in progress, including:
 
-The current version [v0.1.0](https://github.com/open-gitops/documents/releases/tag/v0.1.0) is a pre-release, which includes:
+- [GitOps Principles](./PRINCIPLES.md)
+- [GitOps Glossary](./GLOSSARY.md)
 
-- [GitOps Principles](https://github.com/open-gitops/documents/blob/v0.1.0/PRINCIPLES.md)
-- [GitOps Glossary](https://github.com/open-gitops/documents/blob/v0.1.0/PRINCIPLES.md#glossary)
+See the [releases](https://github.com/open-gitops/documents/releases) page for published versions.
+Note the difference between pre-releases and full releases, defined by the [Semantic Versioning](https://semver.org/) scheme followed by this repo.
+See [open milestones](https://github.com/open-gitops/documents/milestones) for planned future releases.
 
 ## About OpenGitOps
 
