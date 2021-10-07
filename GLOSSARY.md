@@ -41,5 +41,5 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## Feedback
 
-    Open GitOps follows [control-theory](https://en.wikipedia.org/wiki/Control_theory) and operates in a closed-loop. In control theory, feedback represents how attempts to apply a desired state have affected the actual state. For example if the desired state requires more nodes than exist in a system, the software agent may make attempts to add nodes, or to send alerts to human operators. 
+    Open GitOps follows [control-theory](https://en.wikipedia.org/wiki/Control_theory) and operates in a closed-loop. In control theory, feedback represents how previous attempts to apply a desired state have affected the actual state. For example if the desired state requires more resources than exist in a system, the software agent may make attempts to add resources, to automatically rollback to a previous version, or to send alerts to human operators.
 
