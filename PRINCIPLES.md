@@ -23,4 +23,4 @@ The [desired state](./GLOSSARY.md#desired-state) of a GitOps managed system must
 
 5. **Applied in a Closed Loop**
     
-    Software agents follow control-theory and depend on feedback about the actual state and the attempts at reconcilliation in order to reduce deviation over time. 
+    Software agents follow control-theory and depend on [feedback](./GLOSSARY.md#feedback) about the actual state and the attempts at reconcilliation in order to reduce deviation over time. 
