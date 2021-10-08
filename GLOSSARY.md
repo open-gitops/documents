@@ -22,7 +22,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 - ## Reconciliation
 
     The process of ensuring the actual state of a system matches its [desired state](#desired-state).
-    Contrary to traditional CI/CD where automation is generally driven by pre-set triggers, in GitOps reconciliation is triggered whenever there is a divergence. Divergence could be due to the actual state unintentionally [drifting](#drift) from the desired state declarations, or a new desired state declaration version having been changed intentionally.
+    Contrary to traditional CI/CD where automation is generally driven by pre-set triggers, in GitOps reconciliation is triggered whenever there is a divergence with [feedback](#feedback) from previous attempts. Divergence could be due to the actual state unintentionally [drifting](#drift) from the desired state declarations, or a new desired state declaration version having been changed intentionally.
 
 - ## Software System
 
