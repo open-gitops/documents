@@ -20,7 +20,3 @@ The [desired state](./GLOSSARY.md#desired-state) of a GitOps managed system must
 4. **Continuously Reconciled**
 
     Software agents [continuously](./GLOSSARY.md#continuous) observe actual system state and [attempt to apply](./GLOSSARY.md#reconciliation) the desired state.
-
-5. **Applied in a Closed Loop**
-    
-    Software agents follow control theory and depend on [feedback](./GLOSSARY.md#feedback) about the actual state and the attempts at reconcilliation in order to reduce deviation over time. 
