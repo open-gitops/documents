@@ -12,7 +12,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## Desired State
 
-    The aggregate of all configuration data for a system forms its desired state which is defined as data sufficient to recreate the system so that instances of the system are behaviourally indistinguishable.
+    The aggregate of all configuration data that is sufficient to recreate the system so that instances of the system are behaviourally indistinguishable.
     This configuration data generally does not include persistent application data, eg. database contents, though often does include credentials for accessing that data, or configuration for data recovery tools running on that system.
 
 - ## Drift
