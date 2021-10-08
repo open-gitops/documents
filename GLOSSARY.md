@@ -1,4 +1,4 @@
-# GitOps Glossary {{version}}
+# GitOps Glossary v1.0.0
 
 This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other supporting documents in this repository.
 
