@@ -23,4 +23,4 @@ The [desired state](./GLOSSARY.md#desired-state) of a GitOps managed system must
     
 5. **Manageable "always"**
 
-    Desired state is updateable according to users' SLA expectations to update system state, even if the "source" is unavailable. 
+    Desired state is able to be updated according to users' SLA expectations to update system state, even if the "source" is unavailable. 
