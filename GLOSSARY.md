@@ -53,4 +53,3 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 - ## Break the Glass
 
     The process of editing the Intermediate State Store directly in the event that a configuration update needs to be made to the Software System but the State Store is unavailable.
-
