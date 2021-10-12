@@ -21,3 +21,6 @@ The [desired state](./GLOSSARY.md#desired-state) of a GitOps managed system must
 
     Software agents [continuously](./GLOSSARY.md#continuous) observe actual system state and [attempt to apply](./GLOSSARY.md#reconciliation) the desired state.
     
+5. **Manageable "always"**
+
+    Desired state is updateable according to users' SLA expectations to update system state, even if the "source" is unavailable. 
