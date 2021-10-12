@@ -42,8 +42,7 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
 - ## Intermediate State Store
     A system for storing a copy of the declarations that are mastered in the State Store. This system's purpose is intended to bridge the gap in availability between that of the State Store and the expected availability to make configuration changes to the Software System. The Intermediate State Store will offer an availability the same as or near enough to that of the users' expectations to update configuration in the Software System.
-
-Where an Intermediate State Store is used, Reconciliation is used between the State Store and the Intermediate State Store and then again between the Intermediate State Store and the Software System.
+    Where an Intermediate State Store is used, Reconciliation is used between the State Store and the Intermediate State Store and then again between the Intermediate State Store and the Software System.
 
 - ## Feedback
 
