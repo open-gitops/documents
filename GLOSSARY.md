@@ -49,4 +49,4 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
     Open GitOps follows [control-theory](https://en.wikipedia.org/wiki/Control_theory) and operates in a closed-loop. In control theory, feedback represents how previous attempts to apply a desired state have affected the actual state. For example if the desired state requires more resources than exist in a system, the software agent may make attempts to add resources, to automatically rollback to a previous version, or to send alerts to human operators.
 
 - ## Break the Glass
-The process of editing the Intermediate State Store directly in the event that a configuration update needs to be made to the Software System but the State Store is unavailable.
+    The process of editing the Intermediate State Store directly in the event that a configuration update needs to be made to the Software System but the State Store is unavailable.
