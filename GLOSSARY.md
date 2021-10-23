@@ -44,3 +44,9 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
     Open GitOps follows [control-theory](https://en.wikipedia.org/wiki/Control_theory) and operates in a closed-loop. In control theory, feedback represents how previous attempts to apply a desired state have affected the actual state. For example if the desired state requires more resources than exist in a system, the software agent may make attempts to add resources, to automatically rollback to a previous version, or to send alerts to human operators.
 
+- ## · · · — — — · · · 🆘 Break Glass
+
+    The temporary suspension of GitOps principles, often accomplished by pausing automated [reconciliation](#reconciliation).
+    While these principles apply to typical operations, it may at times be necessary to temporarily pause reconciliation, for example during incident management activities.
+    In these cases, other modes of operations should be considered (e.g. manual intervention), followed by any necessary updates to the desired state declarations, and finally resuming reconciliation of the system with the updated declarations.
+    Pragmatic exceptions to these guiding principles are expected from time to time during the journey toward a system being fully managed by GitOps.
