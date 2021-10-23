@@ -19,6 +19,10 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 
     When a system's actual state has moved or is in the process of moving away from the [desired state](#desired-state), this is often referred to as drift.
 
+- ## Feedback
+
+    Open GitOps follows [control-theory](https://en.wikipedia.org/wiki/Control_theory) and operates in a closed-loop. In control theory, feedback represents how previous attempts to apply a desired state have affected the actual state. For example if the desired state requires more resources than exist in a system, the software agent may make attempts to add resources, to automatically rollback to a previous version, or to send alerts to human operators.
+
 - ## Reconciliation
 
     The process of ensuring the actual state of a system matches its [desired state](#desired-state).
@@ -39,8 +43,3 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
     This state store should provide access control and auditing on the changes to the Desired State.
     Git, from which GitOps derives its name, is the canonical example used as this state store but any other system that meets these criteria may be used.
     In all cases, these state stores must be properly configured and precautions must be taken to comply with requirements set out in the GitOps Principles.
-
-- ## Feedback
-
-    Open GitOps follows [control-theory](https://en.wikipedia.org/wiki/Control_theory) and operates in a closed-loop. In control theory, feedback represents how previous attempts to apply a desired state have affected the actual state. For example if the desired state requires more resources than exist in a system, the software agent may make attempts to add resources, to automatically rollback to a previous version, or to send alerts to human operators.
-
