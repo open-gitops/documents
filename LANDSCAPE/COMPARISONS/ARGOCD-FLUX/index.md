@@ -1,8 +1,4 @@
-
 # Continuous Deployment on Kubernetes: What’s the Difference Between Argo CD and FluxCD
-
-
-## by: X with guidance from the GitOps Working Group
 
 If you’ve heard of GitOps and its benefits, you may have come across two open source projects in the Cloud Native Computing Foundation: Argo CD and FluxCD. Members of these projects are involved in the CNCF’s OpenGitOps initiative, and both are incubating projects. With GitOps, you increase reliability and velocity, lower downtime, and can enjoy other benefits through key GitOps capabilities such as reconciliation.
 
@@ -259,11 +255,7 @@ Multi-cluster management is a challenge. Good news; both tools can help with mul
 FluxCD has the concept of connecting to the remote clusters via Kustomization’s (and HelmRelease’s) _KubeConfig_ setting. FluxCD uses a “pull-based” design, where there needs to be an instance of FluxCD running inside of each cluster. A centralized “management cluster” is another possible configuration, where one Flux instance manages workloads on many clusters. “Multi Cluster '' is achieved through [design and process](https://github.com/fluxcd/flux2-multi-tenancy), via a reference architecture. [Other tools, like CAPI, need to be brought in](https://www.youtube.com/watch?v=7W27tAv7Tvs), to install and manage the clusters.
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![flux-mc](IMAGES/flux-mc.png)
 
 
 FluxCD supports multi-cluster management with a single Flux instance by setting [KubeConfig](https://fluxcd.io/docs/components/kustomize/kustomization/#specification) setting. FluxCD also allows the "push" behaviour in this sense by connecting and deploying YAMLS to target clusters via KubeConfig.
@@ -277,20 +269,7 @@ Argo CD can be configured in a “pull” (instance of Argo CD on each cluster) 
 
 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![flux-mc](IMAGES/argocd-mc.png)
 
 
 Argo CD cannot install clusters, however. Argo CD can only manage and deploy to them. Just like Flux, another tool must be used (Examples include: [Open Cluster Management](https://open-cluster-management.io/), CrossPlane, or CAPI).
-
-
-# Conclusion
-
-This is only the beginning! The GitOps Working Group is the governing body of [OpenGitOps](https://opengitops.dev/), a CNCF sandbox project, that sets  vendor-neutral open-source standards, best practices, and community-focused education to help organizations adopt a structured, standardized approach to implementing GitOps. From this set of standards both Argo CD and Flux CD projects have stemmed to deliver a choice in tools to GitOps practitioners. 
-
-In this article we focused on high level, technical differences between Argo CD and Flux CD. Further work is being done to develop a more comprehensive look into each tool including best practices, reference architectures, and white papers which will be posted on a [blog at OpenGitOps](https://opengitops.dev/blog) website and in our [documentation at GitHub](https://github.com/open-gitops/documents).
-
-We invite anyone who is interested in being part of the process to go to [https://opengitops.dev/](https://opengitops.dev/) or [https://github.com/gitops-working-group/](https://github.com/gitops-working-group/) to get more information. We can also be found on the [CNCF Slack Account](https://slack.cncf.io/) in the**_ #opengitops_** and **_#wg-gitops_** channels.
-
