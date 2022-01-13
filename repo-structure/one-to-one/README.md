@@ -1,8 +1,10 @@
-# Flux Example
+# One to One GitOps Repository
 
-This is an example on how to structure a GitOps repo using the [1:1
-method](../) and Argo CD. This is meant as a good starting point and
-not what your final repo will look like.
+This is an example on how to structure a GitOps repo using the "One repo
+per cluster" method. This is meant to be a "generic" way of doing this
+that should fit most GitOps controllers.
+
+This is meant as a good starting point, but not how your final layout will look like.
 
 # Structure
 
