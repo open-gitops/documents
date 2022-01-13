@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cskb-config
+data:
+  csbk.config: |
+    cool=yes

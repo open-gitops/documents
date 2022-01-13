@@ -1,0 +1,9 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: redhat-helm-charts
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  url: https://redhat-developer.github.io/redhat-helm-charts

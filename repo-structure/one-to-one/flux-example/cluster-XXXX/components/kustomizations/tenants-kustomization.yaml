@@ -1,0 +1,12 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: tenants
+  namespace: flux-system
+spec:
+  interval: 5m0s
+  path: ./repo-structure/one-to-one/flux-example/cluster-XXXX/tenants/
+  prune: false
+  sourceRef:
+    kind: GitRepository
+    name: cluster-xxxx-gitrepo

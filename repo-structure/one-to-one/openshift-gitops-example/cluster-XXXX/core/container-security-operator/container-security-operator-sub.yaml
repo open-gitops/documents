@@ -1,0 +1,11 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: container-security-operator
+  namespace: openshift-operators
+spec:
+  channel: quay-v3.3
+  installPlanApproval: Automatic
+  name: container-security-operator
+  source: redhat-operators
+  sourceNamespace: openshift-marketplace
