@@ -15,14 +15,14 @@ Este glosario acompaña a los [Principios de GitOps](./PRINCIPLES_es.md), y otro
     El conjunto de todos los datos de configuración que son suficientes para recrear el sistema de manera que las instancias del sistema sean indistinguibles en su comportamiento.
     Estos datos de configuración generalmente no incluyen los datos persistentes de la aplicación, por ejemplo, el contenido de la base de datos, aunque a menudo incluye las credenciales para acceder a esos datos, o la configuración de las herramientas de recuperación de datos que se ejecutan en ese sistema.
 
-- ## Drift
+- ## Deriva
 
     Cuando el estado real de un sistema se ha alejado o está en proceso de alejarse del [estado deseado](##estado-deseado), esto se suele denominar deriva.
 
 - ## Reconciliación
 
     El proceso de asegurar que el estado real de un sistema coincide con su [estado deseado](#estado-deseado).
-    Al contrario que en el CI/CD tradicional, en el que la automatización suele estar dirigida por activadores preestablecidos, en GitOps la reconciliación se activa siempre que hay una divergencia. La divergencia puede deberse a que el estado real se aleja involuntariamente (#drift) de las declaraciones del estado deseado, o a que se ha cambiado intencionadamente una nueva versión de la declaración del estado deseado.
+    Al contrario que en el CI/CD tradicional, en el que la automatización suele estar dirigida por activadores preestablecidos, en GitOps la reconciliación se activa siempre que hay una divergencia. La divergencia puede deberse a que el estado real se aleja involuntariamente (#deriva) de las declaraciones del estado deseado, o a que se ha cambiado intencionadamente una nueva versión de la declaración del estado deseado.
     Se toman acciones basadas en las políticas en torno a la [retroalimentación](#retroalimentacion) del sistema y los intentos de reconciliación anteriores, con el fin de reducir la desviación en el tiempo.
 
 - ## Sistema de software
