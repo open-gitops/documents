@@ -11,7 +11,7 @@ El [estado deseado](./GLOSSARY_es.md#estado-deseado) de un sistema gestionado po
 
 2. **Versionado e inmutable**
 
-    El estado deseado se [almacena](./GLOSSARY_es.md#almacenamiento-del-estado) de forma que se aplique la inmutabilidad, el versionado y se conserve un historial de versiones completo.
+    El estado deseado se [almacena](./GLOSSARY_es.md#almacenamiento-del-estado) de forma que garantice la inmutabilidad, el versionado y se conserve un historial de versiones completo.
 
 3. **Se extrae automáticamente**
 
@@ -19,4 +19,4 @@ El [estado deseado](./GLOSSARY_es.md#estado-deseado) de un sistema gestionado po
 
 4. **Conciliación continua**
 
-    Los agentes de software [continuamente](./GLOSSARY_es.md#continuo) observan el estado real del sistema y [intentan aplicar](./GLOSSARY_es.md#reconciliación) el estado deseado.
+    Los agentes de software [continuamente](./GLOSSARY_es.md#continuo) observan el estado real del sistema e [intentan aplicar](./GLOSSARY_es.md#reconciliación) el estado deseado.
