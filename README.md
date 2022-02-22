@@ -14,6 +14,8 @@ See the [releases](https://github.com/open-gitops/documents/releases) page for p
 Note the difference between pre-releases and full releases, defined by the [Semantic Versioning](https://semver.org/) scheme followed by this repo.
 See [open milestones](https://github.com/open-gitops/documents/milestones) for planned future releases.
 
+Please find translations of the principles as well as the glossary in the [i18n](./i18n/) folder.
+
 ## About OpenGitOps
 
 OpenGitOps is a [CNCF Sandbox project](https://www.cncf.io/sandbox-projects/) for lasting programs, documents and code from the [GitOps Working Group](https://github.com/gitops-working-group/gitops-working-group).
