@@ -3,7 +3,7 @@
 GitOps é um conjunto de princípios para operar e gerenciar sistemas de software.
 Esses princípios são derivados de operações de software modernas, mas também estão enraizados em práticas recomendadas pré-existentes e amplamente adotadas.
 
-O [estado desejado](./GLOSSARY_pt.md#estado-desejado) de um sistema gerenciado GitOps deve ser:
+O [estado desejado](./GLOSSARY_pt.md#estado-desejado) de um sistema gerenciado por GitOps deve ser:
 
 1. **Declarativo**
 
