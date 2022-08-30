@@ -7,7 +7,7 @@ O [estado desejado](./GLOSSARY_pt.md#estado-desejado) de um sistema gerenciado p
 
 1. **Declarativo**
 
-    Um [sistema](./GLOSSARY_pt.md#sistema-de-software) gerenciado por GitOps deve ter seu estado desejado expresso [declarativamente](./GLOSSARY_pt.md#descrição-declarativa).
+    Um [sistema](./GLOSSARY_pt.md#sistema-de-software) onde seu estado desejado é expresso [declarativamente](./GLOSSARY_pt.md#descrição-declarativa).
 
 2. **Versionado e Imutável**
 
