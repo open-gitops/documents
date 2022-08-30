@@ -4,7 +4,7 @@ Este glossário acompanha os [Princípios de GitOps](./PRINCIPLES_pt.md) e outro
 
 - ## Contínuo
 
-    "Contínuo" destina-se a corresponder ao termo padrão da indústria: [reconciliação](#reconciliação) continua, não que deva ser instantânea.
+    "Contínuo" destina-se a corresponder ao termo padrão da indústria: [reconciliação](#reconciliação) contínua, não que deva ser instantânea.
 
 - ## Descrição Declarativa
 
