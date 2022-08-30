@@ -12,7 +12,7 @@ Este glossário acompanha os [Princípios de GitOps](./PRINCIPLES_pt.md) e outro
 
 - ## Estado Desejado
 
-    A agregação de todos os dados de configuração que são suficientes para recriar o sistema para que as instâncias do sistema sejam indistinguíveis em seu comportamento.
+    A agregação de todos os dados de configuração que são suficientes para recriar o sistema, de forma que as instâncias do sistema sejam indistinguíveis em seu comportamento.
     Esses dados de configuração geralmente não incluem dados de aplicativos persistentes, por exemplo, conteúdo do banco de dados, embora muitas vezes inclua credenciais para acessar esses dados ou configuração para ferramentas de recuperação de dados em execução nesse sistema.
 
 - ## Desvio
