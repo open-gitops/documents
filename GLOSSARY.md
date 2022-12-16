@@ -18,6 +18,10 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
 - ## Drift
 
     When a system's actual state has moved or is in the process of moving away from the [desired state](#desired-state), this is often referred to as drift.
+    
+- ## Pull
+
+    In contrast to traditional, CI/CD pipelines which "push" event based triggers to discover state changes, in GitOps desired state is "pulled". This state may be reconciled with local or remote actual states. In GitOps agents are expected to pull both desired and actual states without the requirement of events. Webhooks may be used to speed up this process, but should a webhook fail, the agent is still expected to discover changes to desired state by pulling from the source of truth. 
 
 - ## Reconciliation
 
