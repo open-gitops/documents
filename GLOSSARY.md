@@ -21,7 +21,10 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
     
 - ## Pull
 
-    In contrast to traditional, CI/CD pipelines which "push" event based triggers to discover state changes, in GitOps desired state is "pulled". This state may be reconciled with local or remote actual states. In GitOps agents are expected to pull both desired and actual states without the requirement of events. Webhooks may be used to speed up this process, but should a webhook fail, the agent is still expected to discover changes to desired state by pulling from the source of truth. 
+    [Principle 3](./PRINCIPLES.md) specifies the desired state must be "pulled" rather than "pushed", primarily because the software agents must be able to access the [desired state](#desired-state) from the [state store](#state-store) at _any_ time, not only when there is an intentional change in the state store triggering a push event.
+    This is a prerequisite for [reconciliation](#reconciliation) to happen [continuously](#continuous), as specified in [principle 4](./PRINCIPLES.md).
+    Note that – in contrast to traditional CI/CD, where automation is generally driven by pre-set triggers – in GitOps, [reconciliation](#reconciliation) is triggered _whenever_ there is a divergence.
+    Divergence could be due to the actual state unintentionally [drifting](#drift) from the desired state declarations – not only due to a new desired state declaration version having been changed intentionally.
 
 - ## Reconciliation
 
