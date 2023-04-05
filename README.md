@@ -18,13 +18,13 @@ Please find translations of the principles as well as the glossary in the [i18n]
 
 ## About OpenGitOps
 
-OpenGitOps is a [CNCF Sandbox project](https://www.cncf.io/sandbox-projects/) for lasting programs, documents and code from the [GitOps Working Group](https://github.com/gitops-working-group/gitops-working-group).
+OpenGitOps is a [CNCF Sandbox project](https://www.cncf.io/sandbox-projects/) for lasting programs, documents and code from the [GitOps Working Group](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg).
 
 ## About the GitOps Working Group
 
 The GitOps Working Group is a WG under the [CNCF App Delivery TAG](https://github.com/cncf/tag-app-delivery), with a focus to clearly define a vendor-neutral, principle-led meaning of GitOps. This will establish a foundation for interoperability between tools, conformance, and certification.
 It is an open public working group welcoming anyone who would like to join and help.
-See [How to Get Involved](https://github.com/gitops-working-group/gitops-working-group/blob/main/README.md#how-to-get-involved).
+See [How to Get Involved](https://github.com/cncf/tag-app-delivery/tree/main/gitops-wg#community).
 
 ## Code of Conduct
 
