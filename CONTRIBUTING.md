@@ -23,19 +23,3 @@ We look forward to your contributions!
 * Content should not contain branding for anything other than the OpenGitops project
 * Content must be in markdown format
 
-## Best Practises / White Papers
-
-## Tutorials and Patterns
-
-Additional Acceptance Criteria:
-
-* The requirements in terms of skills, experience and tools are listed up front
-* For vendor technology, a link to to a free trial or sandbox should be available 
-
-## Case Studies
-
-Case studies should focus on how GitOps principles were implemented, as well as the specific outcomes and benefits.
-
-## Tool and Technology Comparison
-
-
