@@ -19,15 +19,6 @@ Additional Acceptance Criteria:
 * The requirements in terms of skills, experience and tools are listed up front
 * For vendor technology, a link to to a free trial or sandbox should be available 
 
-### Blueprints / Reference Architectures
-
-Blueprints are runnable and published as individual repositories under the open-gitops-blueprints project
-
-Additional Acceptance Criteria:
-
-* A README with instructions for running the blueprint, 
-* Blueprints should be as complete as possible, without requiring the user to create new files or manifests, providing an example values file is preferred, asking the user to update a manifest file should be avoided.
-
 ## Case Studies
 
 Case studies should focus on how GitOps principles were implemented, as well as the specific outcomes and benefits.
