@@ -30,7 +30,7 @@ Additional Acceptance Criteria:
 
 ## Case Studies
 
-Case studies should focus on the usage of gitops principles, and the outcomes, and the benefits of a product.
+Case studies should focus on how GitOps principles were implemented, as well as the specific outcomes and benefits.
 
 ## Tool and Technology Comparison
 
