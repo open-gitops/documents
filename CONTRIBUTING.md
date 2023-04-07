@@ -8,7 +8,8 @@ To be included content should received at least 2 approvals from project maintai
 * Copyright is assigned to OpenGitops / CNCF project
 * Content is not a duplicate (for version changes in technology, submit a new version of an existing article)
 * Content is informational and not promotional, Tutorials and case studies of vendor technology are allowed, but promotional content is limited to 1 line and 1 link (excluding any links to free trials in the requirements section) at the start or end of the content
-* Content must be in markdown format, optional PDF can be provided, but it should be branded for the OpenGitops project
+* Content should not contain branding for anything other than the OpenGitops project
+* Content must be in markdown format
 
 ## Best Practises / White Papers
 
