@@ -5,19 +5,19 @@ These principles are derived from modern software operations, but are also roote
 
 The [desired state](./GLOSSARY.md#desired-state) of a GitOps managed system must be:
 
-- ## Declarative
+1. ## Declarative
 
     A [system](./GLOSSARY.md#software-system) managed by GitOps must have its desired state expressed [declaratively](./GLOSSARY.md#declarative-description).
 
-- ## Versioned and Immutable
+2. ## Versioned and Immutable
 
     Desired state is [stored](./GLOSSARY.md#state-store) in a way that enforces immutability, versioning and retains a complete version history.
 
-- ## Pulled Automatically
+3. ## Pulled Automatically
 
     Software agents automatically [pull]((./GLOSSARY.md#pull)) the desired state declarations from the source.
 
-- ## Continuously Reconciled
+ 4. ## Continuously Reconciled
 
     Software agents [continuously](./GLOSSARY.md#continuous) observe actual system state and [attempt to apply](./GLOSSARY.md#reconciliation) the desired state.
     
