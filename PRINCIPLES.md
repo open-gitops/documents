@@ -20,4 +20,3 @@ The [desired state](./GLOSSARY.md#desired-state) of a GitOps managed system must
 4. ## Continuously Reconciled
 
     Software agents [continuously](./GLOSSARY.md#continuous) observe actual system state and [attempt to apply](./GLOSSARY.md#reconciliation) the desired state.
-    
