@@ -15,9 +15,8 @@ The [desired state](./GLOSSARY.md#desired-state) of a GitOps managed system must
 
 3. ## Pulled Automatically
 
-    Software agents automatically [pull]((./GLOSSARY.md#pull)) the desired state declarations from the source.
+    Software agents automatically [pull](./GLOSSARY.md#pull) the desired state declarations from the source.
 
- 4. ## Continuously Reconciled
+4. ## Continuously Reconciled
 
     Software agents [continuously](./GLOSSARY.md#continuous) observe actual system state and [attempt to apply](./GLOSSARY.md#reconciliation) the desired state.
-    
