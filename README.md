@@ -31,7 +31,7 @@ A [BibTex](https://www.bibtex.org) code snippet to use as reference for the cont
 ```
 @misc{open_gitops,
   author       = {{Open GitOps Project}},
-  title        = {{Open GitOps Documents - Glossary and Principles}},
+  title        = {{GitOps Principles and Glossary}},
   howpublished = {\url{https://github.com/open-gitops/documents}},
   note         = {Accessed: YYYY-MM-DD},
   year         = {ongoing}
