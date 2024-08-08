@@ -32,7 +32,7 @@ A [BibTex](https://www.bibtex.org) code snippet to use as reference for the cont
 @misc{open_gitops,
   title        = {{GitOps Principles and Glossary}},
   howpublished = {\url{https://github.com/open-gitops/documents}},
-  note         = {Accessed: YYYY-MM-DD. For an up-to-date list of authors, see \url{https://github.com/open-gitops/documents/blob/main/authors.md}. Release version 1.1.0},
+  note         = {Accessed: YYYY-MM-DD. For an up-to-date list of authors, see \url{https://github.com/open-gitops/documents/blob/v1.1.0/authors.md}. Release version 1.1.0},
   year         = {2024}
 }
 ```
