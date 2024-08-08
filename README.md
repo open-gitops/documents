@@ -26,7 +26,7 @@ The OpenGitOps community follows the [CNCF Code of Conduct](https://github.com/o
 
 ## Reference this Content
 
-A [BibTex](https://www.bibtex.org) code snippet to use as reference for the content available in this repository is listed below, make sure to change your site visit date accordinly.
+A [BibTex](https://www.bibtex.org) code snippet to use as reference for the content available in this repository is listed below, make sure to change your site visit date, and optionally release version, accordingly.
 
 ```
 @misc{open_gitops,
