@@ -24,16 +24,15 @@ For more information about the OpenGitOps project, see: <https://github.com/open
 
 The OpenGitOps community follows the [CNCF Code of Conduct](https://github.com/open-gitops/.github/blob/main/CODE_OF_CONDUCT.md).
 
-## Refence this Content
+## Reference this Content
 
 A [BibTex](https://www.bibtex.org) code snippet to use as reference for the content available in this repository is listed below, make sure to change your site visit date accordinly.
 
 ```
 @misc{open_gitops,
-  author       = {{Open GitOps Project}},
   title        = {{GitOps Principles and Glossary}},
   howpublished = {\url{https://github.com/open-gitops/documents}},
-  note         = {Accessed: YYYY-MM-DD},
-  year         = {ongoing}
+  note         = {Accessed: YYYY-MM-DD. For an up-to-date list of authors, see \url{https://github.com/open-gitops/documents/blob/main/authors.md}. Release version 1.1.0},
+  year         = {2024}
 }
 ```
