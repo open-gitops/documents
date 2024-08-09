@@ -19,6 +19,13 @@ Este glossário acompanha os [Princípios de GitOps](./PRINCIPLES_pt.md) e outro
 
     Quando o estado atual de um sistema se moveu ou está em processo de se afastar do [estado desejado](#estado-desejado), isso geralmente é chamado de desvio.
 
+- ## Obter    
+
+    O [Princípio 3](./PRINCIPLES_pt.md) (Obtido Automaticamente) especifica que o estado desejado deve ser "puxado" em vez de "empurrado", principalmente porque os agentes de software devem ser capazes de acessar o [estado desejado](#estado-desejado) a partir do [armazenamento de estado](#armazenamento-de-estado) a _qualquer_ momento, e não apenas quando houver uma mudança intencional no armazenamento de estado que aciona um evento de push. 
+    Este é um pré-requisito para que a [reconciliação](#reconciliação) aconteça [continuamente](#contínuo), como especificado no [princípio 4](./PRINCIPLES_pt.md) (Conciliação Contínua). 
+    Observe que – ao contrário do CI/CD tradicional, onde a automação é geralmente acionada por gatilhos predefinidos – no GitOps, a [reconciliação](#reconciliação) é acionada _sempre que_ houver uma divergência. 
+    A divergência pode ser devido ao estado atual se desviar inadvertidamente do estado desejado – e não apenas devido a uma nova versão da declaração de estado desejado ter sido alterada intencionalmente.
+
 - ## Reconciliação
 
     O processo de garantir que o estado real de um sistema corresponda ao seu [estado desejado](#estado-desejado).
