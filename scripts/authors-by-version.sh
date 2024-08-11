@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Example usage:
+# mkdir -p reference
+# for VERSION in v1.0.0 HEAD; do
+#   ./scripts/authors-by-version.sh $VERSION > reference/authors-$VERSION.md
+# done
+
 # Authors, comitters, co-authors
 get_authors() {
     local git_tag="$1"
