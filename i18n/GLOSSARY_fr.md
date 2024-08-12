@@ -4,7 +4,7 @@ Ce glossaire accompagne les [principes GitOps](./PRINCIPLES_fr.md), et autres do
 
 - ## Continu
 
-    « Continu » est destiné à correspondre au terme standard de l'industrie : la [réconciliation](#reconciliation) se produit en continu, sans obligation d'être instantanée.
+    « Continu » est destiné à correspondre au terme standard de l'industrie : la [réconciliation](#rconciliation) se produit en continu, sans obligation d'être instantanée.
 
 - ## Description déclarative
 
