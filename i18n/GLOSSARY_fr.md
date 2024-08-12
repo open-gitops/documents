@@ -17,16 +17,16 @@ Ce glossaire accompagne les [principes GitOps](./PRINCIPLES_fr.md), et autres do
 
 - ## Dérive
 
-    Lorsque l'état réel d'un système s'est éloigné ou est en train de s'éloigner de [l'état souhaité](#etat-souhaite), on parle alors de dérive.
+    Lorsque l'état réel d'un système s'est éloigné ou est en train de s'éloigner de [l'état souhaité](#etat-souhaité), on parle alors de dérive.
 
 - ## Extraction ("Pull")
 
-    [Principe 3](./PRINCIPLES_fr.md) (Extraction automatique) indique que l'état souhaité doit être extrait plutôt que poussé, principalement parce que les agents logiciels doivent être capable d'accéder à tout moment à [l'état souhaité](#etat-souhaite) dans le [stockage d'état](#stockage-d-etat), pas seulement lors d'un chagement intentionel dans le stockage d'état déclanchant un évėnement de type "push". C'est une condition préalable pour que la réconciliation se produise en continu, comme spécifié dans le [principe 4](./PRINCIPLES_fr.md) (Reconcilié en permanence). Notez que, contrairement au CI/CD traditionnel, où l'automatisation est généralement pilotée par des déclencheurs prédéfinis, dans GitOps, la réconciliation est déclenchée chaque fois qu'il y a une divergence. La divergence peut être due à l'état réel qui s'éloigne involontairement des déclarations d'état souhaitées, et pas seulement suite à une nouvelle version de déclaration d'état souhaitée modifiée intentionnellement.
+    [Principe 3](./PRINCIPLES_fr.md) (Extraction automatique) indique que l'état souhaité doit être extrait plutôt que poussé, principalement parce que les agents logiciels doivent être capable d'accéder à tout moment à [l'état souhaité](#etat-souhaité) dans le [stockage d'état](#stockage-d-etat), pas seulement lors d'un chagement intentionel dans le stockage d'état déclanchant un évėnement de type "push". C'est une condition préalable pour que la réconciliation se produise en continu, comme spécifié dans le [principe 4](./PRINCIPLES_fr.md) (Reconcilié en permanence). Notez que, contrairement au CI/CD traditionnel, où l'automatisation est généralement pilotée par des déclencheurs prédéfinis, dans GitOps, la réconciliation est déclenchée chaque fois qu'il y a une divergence. La divergence peut être due à l'état réel qui s'éloigne involontairement des déclarations d'état souhaitées, et pas seulement suite à une nouvelle version de déclaration d'état souhaitée modifiée intentionnellement.
   
 - ## Réconciliation
 
-    Le Processus consistant à s'assurer que l'état réel d'un système correspond à son [état souhaité](#etat-souhaite).
-    Contrairement au CI/CD traditionnel où l'automatisation est généralement pilotée par des déclencheurs prédéfinis, dans GitOps la réconciliation est déclenchée dès qu'il y a une divergence. La divergence peut être due au fait que l'état présent s'écarte involontairement des déclarations d'état souhaité ([Dérive](#derive)), ou qu'une nouvelle version de déclaration d'état souhaité a été modifiée intentionnellement. 
+    Le Processus consistant à s'assurer que l'état réel d'un système correspond à son [état souhaité](#etat-souhaité).
+    Contrairement au CI/CD traditionnel où l'automatisation est généralement pilotée par des déclencheurs prédéfinis, dans GitOps la réconciliation est déclenchée dès qu'il y a une divergence. La divergence peut être due au fait que l'état présent s'écarte involontairement des déclarations d'état souhaité ([Dérive](#dérive)), ou qu'une nouvelle version de déclaration d'état souhaité a été modifiée intentionnellement. 
     Des actions sont prises en fonction des politiques relatives au [retour d'information du système](#feedback) et des tentatives de réconciliation précédentes, afin de réduire la divergence au fil du temps.
 
 - ## Système logiciel
