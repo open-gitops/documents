@@ -19,6 +19,10 @@ Ce glossaire accompagne les [principes GitOps](./PRINCIPLES_fr.md), et autres do
 
     Lorsque l'état réel d'un système s'est éloigné ou est en train de s'éloigner de [l'état souhaité](#etat-souhaite), on parle alors de dérive.
 
+- ## Extraction ("Pull")
+
+    [PRINCIPLES_fr.md](Principe 3) (Extraction automatique) indique que l'état souhaité doit être extrait plutôt que poussé, principalement parce que les agents logiciels doivent être capable d'accéder à tout moment à [l'état souhaité](#etat-souhaite) dans le [stockage d'état](#stockage-d-etat), pas seulement quand il y a un chagement intentionel dans le stockage d'état déclanchant un évėnement de type "push". C'est une condition préalable pour que la réconciliation se produise en continu, comme spécifié dans le [PRINCIPLES_fr.md](principe 4) (Reconcilié en permanence). Notez que, contrairement au CI/CD traditionnel, où l'automatisation est généralement pilotée par des déclencheurs prédéfinis, dans GitOps, la réconciliation est déclenchée chaque fois qu'il y a une divergence. La divergence peut être due à l'état réel qui s'éloigne involontairement des déclarations d'état souhaitées, et pas seulement suite à une nouvelle version de déclaration d'état souhaitée modifiée intentionnellement.
+  
 - ## Réconciliation
 
     Le Processus consistant à s'assurer que l'état réel d'un système correspond à son [état souhaité](#etat-souhaite).
@@ -35,7 +39,7 @@ Ce glossaire accompagne les [principes GitOps](./PRINCIPLES_fr.md), et autres do
 
 - ## Stockage d'état
 
-    Un système pour stocker des versions immuables des déclarations [d'état souhaitées](#etat-souhaite). Ce stockage d'états doit fournir un contrôle d'accès et un audit des modifications apportées à l'état souhaité. Git, dont GitOps tire son nom, est l'exemple canonique utilisé comme ce stockage d'état mais tout autre système répondant à ces critères peut être utilisé. Dans tous les cas, ces stockages d'état doivent être correctement configurés et des précautions doivent être prises pour se conformer aux exigences énoncées dans les principes GitOps.
+    Un système pour stocker des versions immuables des déclarations [d'état souhaité](#etat-souhaite). Ce stockage d'états doit fournir un contrôle d'accès et un audit des modifications apportées à l'état souhaité. Git, dont GitOps tire son nom, est l'exemple canonique utilisé comme ce stockage d'état mais tout autre système répondant à ces critères peut être utilisé. Dans tous les cas, ces stockages d'état doivent être correctement configurés et des précautions doivent être prises pour se conformer aux exigences énoncées dans les principes GitOps.
 
 - ## Feedback
 
