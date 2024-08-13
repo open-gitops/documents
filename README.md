@@ -46,6 +46,5 @@ Optional: You may reference multiple versions in the same article. If so:
   howpublished = {\url{https://github.com/open-gitops/documents}},
   note         = {Accessed: YYYY-MM-DD. Release version: 1.0.0. Authors: \url{https://github.com/open-gitops/documents/blob/main/reference/authors-v1.0.0.md}.},
   year         = {2021}
-```
 }
 ```
