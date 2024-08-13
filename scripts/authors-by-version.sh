@@ -47,7 +47,7 @@ See the full Git history of specific files for additional context.
 EOF
 
 # If translations exist, output a note about language and translations
-if [ $i18n = true ]; then
+if [[ $i18n = true ]]; then
     cat <<EOF
 ## Language and Translations
 
@@ -68,7 +68,7 @@ $AUTHORS
 EOF
 
 # If translations exist, append translator lists
-if [ $i18n = true ]; then
+if [[ $i18n = true ]]; then
     # Get translator lists
     DE=$(get_authors "$GIT_TAG" i18n/*_de.md)
     ES=$(get_authors "$GIT_TAG" i18n/*_es.md)
