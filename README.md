@@ -26,13 +26,26 @@ The OpenGitOps community follows the [CNCF Code of Conduct](https://github.com/o
 
 ## Reference this Content
 
-A [BibTex](https://www.bibtex.org) code snippet to use as reference for the content available in this repository is listed below, make sure to change your site visit date, and optionally release version, accordingly.
+Below is a [BibTex](https://www.bibtex.org) code snippet to use as reference for the content available in this repository. There is one required change, and several optional adjustments you may make to the snippet.
+
+Required:
+- at minimum you will need to change the `Accessed` date (when you accessed this material) in the [note](https://www.bibtex.com/f/note-field/) field.
+
+Optional: You may choose to reference a different release version. If so:
+- Change the `Release version` in the [note](https://www.bibtex.com/f/note-field/) field.
+- Update the [year](https://www.bibtex.com/f/year-field/) field to match. See list of releases by date [here](https://github.com/open-gitops/documents/releases).
+- Update the file link in `Authors` in the [note](https://www.bibtex.com/f/note-field/) field. You may find the list of authors by your chosen release version in the [reference](https://github.com/open-gitops/documents/blob/main/reference/) directory in this Git repo.
+
+Optional: You may reference multiple versions in the same article. If so:
+- Update the [CiteKey](https://www.bibtex.com/g/bibtex-format/#citekey) below ("GitOps-Principles-and-Glossary") so each is unique (for example, append the version "-v1.0.0").
+- ⚠️ Note that the GitOps Principles and Glossary are versioned together, so when citing an individual principle and glossary item, ensure the versions match. This is because the two files have hyperlinks from one to the other that may be incorrect or broken between different versions.
 
 ```
-@misc{open_gitops,
+@misc{GitOps-Principles-and-Glossary,
   title        = {{GitOps Principles and Glossary}},
   howpublished = {\url{https://github.com/open-gitops/documents}},
-  note         = {Accessed: YYYY-MM-DD. For an up-to-date list of authors, see \url{https://github.com/open-gitops/documents/blob/v1.1.0/authors.md}. Release version 1.1.0},
-  year         = {2024}
+  note         = {Accessed: YYYY-MM-DD. Release version: 1.0.0. Authors: \url{https://github.com/open-gitops/documents/blob/main/reference/authors-v1.0.0.md}.},
+  year         = {2021}
+```
 }
 ```
