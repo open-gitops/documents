@@ -19,6 +19,13 @@ Ce glossaire accompagne les [principes GitOps](./PRINCIPLES_fr.md), et autres do
 
     Lorsque l'état réel d'un système s'est éloigné ou est en train de s'éloigner de [l'état souhaité](#etat-souhaite), on parle alors de dérive.
 
+- ## Pull
+
+    [Principe 3](./PRINCIPLES_fr.md) ("Pull" Automatiquement) spécifie que l'état souhaité doit être extrait ("pull") plutôt que "push", principalement parce que les agents logiciels doivent être capables d'acceder l'[état souhaité](#etat-souhaite) depuis le [stockage d'état](#stockage-d-etat) à _tout_ moment, et pas seulement lorsqu'il y a un changement intentionnel dans le stockage d'état déclenchant un événement de push.
+C'est une condition préalable pour que la [réconciliation](#reconciliation) se fasse [en continu](#continu), comme spécifié dans le [principe 4](./PRINCIPLES_fr.md) (Réconcilié en permanence). Notez que – contrairement au CI/CD traditionnel, où l'automatisation est généralement déclenchée par des déclencheurs préétablis – dans GitOps, la [réconciliation](#reconciliation) est déclenchée _à chaque fois_ qu'il y a une divergence.
+La divergence pourrait être due à un état actuel [dérivant](#derive) involontairement de la déclaration de l'état souhaité – et non seulement en raison d'une nouvelle version de déclaration de l'état souhaité ayant été changée intentionnellement.
+
+
 - ## Réconciliation
 
     Le Processus consistant à s'assurer que l'état réel d'un système correspond à son [état souhaité](#etat-souhaite).
