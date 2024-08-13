@@ -13,16 +13,16 @@ get_authors() {
     local files="$@"
     git --no-pager log "$git_tag" -- $files | \
         sed -n -e 's/^Author: //p' -e 's/^Committer: //p' -e 's/^.*Co-authored-by: //p' | \
-        sort | uniq | sed -e 's/^/- /'
+        sort -u | sed -e 's/^/- /'
 }
 
 # Ensure tag argument is provided
-if [ "$#" -lt 1 ]; then
+GIT_TAG=$1
+
+if [[ -z ${GIT_TAG} ]]; then
     echo "Usage: $0 <git-tag>"
     exit 1
 fi
-
-GIT_TAG="$1"
 
 if [ ! $(git tag -l "$GIT_TAG") ] && [ ! "$GIT_TAG" == "HEAD" ]; then
     echo "<git-tag> '$GIT_TAG' does not exist"
