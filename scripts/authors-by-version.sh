@@ -10,7 +10,8 @@
 get_authors() {
     local git_tag="$1"
     shift  # Shift arguments to get the files
-    local files="$@"
+    local files="$*"
+    # shellcheck disable=SC2086
     git --no-pager log "$git_tag" -- $files | \
         sed -n -e 's/^Author: //p' -e 's/^Committer: //p' -e 's/^.*Co-authored-by: //p' | \
         sort -u | sed -e 's/^/- /'
@@ -24,7 +25,7 @@ if [[ -z ${GIT_TAG} ]]; then
     exit 1
 fi
 
-if [ ! $(git tag -l "$GIT_TAG") ] && [ ! "$GIT_TAG" == "HEAD" ]; then
+if [ ! "$(git tag -l "$GIT_TAG")" ] && [ ! "$GIT_TAG" == "HEAD" ]; then
     echo "<git-tag> '$GIT_TAG' does not exist"
     exit 1
 fi
