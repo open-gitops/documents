@@ -13,9 +13,9 @@ L'[état souhaité](./GLOSSARY_fr.md#etat-souhaité) d'un système géré par Gi
 
     L'état souhaité est [stocké](./GLOSSARY_fr.md#stockage-d-etat) d'une manière qui renforce l'immuabilité, le versioning et conserve un historique complet des versions.
 
-3. ## "Pull" automatiquement
+3. ## Extrait automatiquement
 
-    Les agents logiciels extraient (["pull"](./GLOSSARY_fr.md#pull)) automatiquement les déclarations d'état souhaitées de la source.
+    Les agents logiciels extraient (["pull"](./GLOSSARY_fr.md#extraction-pull)) automatiquement les déclarations d'état souhaitées de la source.
 
 4. ## Reconcilié en permanence
 
