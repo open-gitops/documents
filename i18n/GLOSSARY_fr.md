@@ -8,7 +8,7 @@ Ce glossaire accompagne les [principes GitOps](./PRINCIPLES_fr.md), et autres do
 
 - ## Description déclarative
 
-    Une configuration qui décrit l'état de fonctionnement souhaité d'un système sans spécifier les procédures pour la réalisation de cet état. Cela sépare la configuration ([l'état souhaité]((#état-souhaité))) de la mise en œuvre (commandes, appels API, scripts, etc.) utilisée pour atteindre cet état.
+    Une configuration qui décrit l'état de fonctionnement souhaité d'un système sans spécifier les procédures pour la réalisation de cet état. Cela sépare la configuration (l'état souhaité) de la mise en œuvre (commandes, appels API, scripts, etc.) utilisée pour atteindre cet état.
 
 - ## État souhaité
 
