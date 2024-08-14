@@ -4,11 +4,11 @@ Ce glossaire accompagne les [principes GitOps](./PRINCIPLES_fr.md), et autres do
 
 - ## Continu
 
-    "Continu" est destiné à correspondre au terme standard de l'industrie : la [réconciliation](#réconciliation) se produit en continu, sans obligation d'être instantanée.
+    "Continu" est destiné à correspondre au terme standard de l'industrie: la [réconciliation](#réconciliation) se produit en continu, sans obligation d'être instantanée.
 
 - ## Description déclarative
 
-    Une configuration qui décrit l'état de fonctionnement souhaité d'un système sans spécifier les procédures pour la réalisation de cet état. Cela sépare la configuration (l'état souhaité) de la mise en œuvre (commandes, appels API, scripts, etc.) utilisée pour atteindre cet état.
+    Une configuration qui décrit l'état de fonctionnement souhaité d'un système sans spécifier les procédures pour la réalisation de cet état. Cela sépare la configuration ([l'état souhaité]((#état-souhaité))) de la mise en œuvre (commandes, appels API, scripts, etc.) utilisée pour atteindre cet état.
 
 - ## État souhaité
 
@@ -21,7 +21,7 @@ Ce glossaire accompagne les [principes GitOps](./PRINCIPLES_fr.md), et autres do
 
 - ## Extraction ("Pull")
 
-    [Principe 3](./PRINCIPLES_fr.md#extrait-automatiquement) (Extraction automatique) spécifie que l'état souhaité doit être extrait ("pull") plutôt que poussé ("push"), principalement parce que les agents logiciels doivent être capables d'accéder à _tout_ moment à l'[état souhaité](#état-souhaité) dans le [stockage d'état](#stockage-détat), pas seulement lors d'un changement intentionnel dans le stockage d'état déclenchant un événement de type "push".
+    Le [principe 3](./PRINCIPLES_fr.md#extrait-automatiquement) (extraction automatique) spécifie que l'état souhaité doit être extrait ("pull") plutôt que poussé ("push"), principalement parce que les agents logiciels doivent être capables d'accéder à _tout_ moment à l'[état souhaité](#état-souhaité) dans le [stockage d'état](#stockage-détat), pas seulement lors d'un changement intentionnel dans le stockage d'état déclenchant un événement de type "push".
 C'est une condition préalable pour que la [réconciliation](#réconciliation) se produise [en continu](#continu), comme spécifié dans le [principe 4](./PRINCIPLES_fr.md#reconcilié-en-permanence) (Réconcilié en permanence). Notez que, contrairement au CI/CD traditionnel, où l'automatisation est généralement pilotée par des déclencheurs prédéfinis, dans GitOps, la [réconciliation](#réconciliation) est déclenchée _chaque fois_ qu'il y a une divergence.
 La divergence peut être due à l'état réel [dérivant](#dérive) involontairement de la déclaration de l'état souhaité, et pas seulement suite à une nouvelle version de déclaration d'état souhaitée modifiée intentionnellement.
 
