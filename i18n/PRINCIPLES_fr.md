@@ -7,11 +7,11 @@ L'[état souhaité](./GLOSSARY_fr.md#état-souhaité) d'un système géré par G
 
 1. ## Déclaratif
 
-    Un [système](./GLOSSARY_fr.md#systeme-logiciel) géré par GitOps doit avoir son état souhaité exprimé [de manière déclarative](./GLOSSARY_fr.md#description-declarative).
+    Un [système](./GLOSSARY_fr.md#système-logiciel) géré par GitOps doit avoir son état souhaité exprimé [de manière déclarative](./GLOSSARY_fr.md#description-déclarative).
 
 2. ## Versionné et Immuable
 
-    L'état souhaité est [stocké](./GLOSSARY_fr.md#stockage-d-etat) d'une manière qui renforce l'immuabilité, le versioning et conserve un historique complet des versions.
+    L'état souhaité est [stocké](./GLOSSARY_fr.md#stockage-détat) d'une manière qui renforce l'immuabilité, le versioning et conserve un historique complet des versions.
 
 3. ## Extrait automatiquement
 
@@ -19,4 +19,4 @@ L'[état souhaité](./GLOSSARY_fr.md#état-souhaité) d'un système géré par G
 
 4. ## Reconcilié en permanence
 
-    Les agents logiciels observent [continuellement](./GLOSSARY_fr.md#continu) l'état présent du système et [tentent d'appliquer](./GLOSSARY_fr.md#reconciliation) l'état souhaité.
+    Les agents logiciels observent [continuellement](./GLOSSARY_fr.md#continu) l'état présent du système et [tentent d'appliquer](./GLOSSARY_fr.md#réconciliation) l'état souhaité.
