@@ -19,9 +19,9 @@ Te dane konfiguracyjne generalnie nie zawieraja trwałych danych aplikacji, jak 
 
 Kiedy rzeczywisty stan systemu przesunął się lub jest w trakcie oddalania się od [stanu pożądanego](#stan-pożądany), często określa się to jako dryf.
 
-- ## Pobranie (ang. Pull)
+- ## Ściąganie (ang. Pull)
 
-    [Zasada 3](./PRINCIPLES.md) (Pulled Automatycznie) określa, że ​​pożądany stan musi zostać „pobrany” (pulled), a nie „wypchnięty” (pushed), przede wszystkim dlatego, że agent musi mieć możliwość dostępu do [pożądanego stanu](#pożądany-stan) z [magazynu stanów](#magazyn-stanów) w dowolnym momencie, a nie tylko wtedy, gdy nastąpi celowa zmiana w magazynie stanów wyzwaląjca push event.
+    [Zasada 3](./PRINCIPLES.md) (Pulled Automatycznie) określa, że ​​pożądany stan musi zostać ściągany (pulled), a nie wypchnięty (pushed), przede wszystkim dlatego, że agent musi mieć możliwość dostępu do [pożądanego stanu](#pożądany-stan) z [magazynu stanów](#magazyn-stanów) w dowolnym momencie, a nie tylko wtedy, gdy nastąpi celowa zmiana w magazynie stanów wyzwaląjca push event.
     Jest to warunek konieczny, aby [uzgadnianie](#uzgadnianie) odbywało się [ciągle](#Ciągły), jak określono w [zasadzie 4](./PRINCIPLES.md) (Ciągle uzgadniany).
     Należy pamiętać, że w przeciwieństwie do tradycyjnego CI/CD, gdzie automatyzacja jest zazwyczaj wyzwalana przez wstępnie ustawione triggery – w GitOps [uzgadnianie](#uzgadnianie) jest wyzwalane zawsze kiedy występuje rozbieżność.
     Rozbieżność może być spowodowana niezamierzonym [dryftem](#dryft) rzeczywistego stanu od deklaracji pożądanego stanu a nie tylko celową zmianą wersji deklaracji pożądanego stanu.
