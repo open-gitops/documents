@@ -1,6 +1,6 @@
-# Słownik GitOps {{version}}
+# Glosariusz GitOps {{version}}
 
-Ten słownik jest powiązany z [Zasady GitOps](./PRINCIPLES.pl) i innymi dokumentami pomocniczymi w tym repozytorium. 
+Ten glosariusz jest powiązany z [Zasady GitOps](./PRINCIPLES.pl) i innymi dokumentami pomocniczymi w tym repozytorium. 
 
 - ## Ciągły (ang. Continuous)
 
@@ -30,7 +30,7 @@ Kiedy rzeczywisty stan systemu przesunął się lub jest w trakcie oddalania si�
 
     Proces mający na celu zapewnienie, że rzeczywisty stan systemu odpowiada [pożądanemu stanowi](#stan-pożądany).
     W przeciwieństwie do tradycyjnego CI/CD, gdzie automatyzacja jest zazwyczaj wyzwalana przez wstępnie ustawione triggery, w GitOps uzgadnianie jest inicjowane zawsze kiedy występuje rozbieżność. Rozbieżność może być spowodowana niezamierzonym [dryftem](#dryft) rzeczywistego stanu od deklaracji pożądanego stanu lub celową zmianą wersji deklaracji pożądanego stanu.
-    Działania są podejmowane na podstawie zasad dotyczących [opinii](/GLOSSARYplopinie) systemu oraz wcześniejszych prób uzgadniania, w celu zmniejszenia dewjacji w czasie.
+    Działania są podejmowane na podstawie zasad dotyczących [opinii](/GLOSSARY_pl.md-opinie) systemu oraz wcześniejszych prób uzgadniania, w celu zmniejszenia dewjacji w czasie.
 
 - ## System oprogramowania (ang. Software System)
 
