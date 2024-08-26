@@ -1,22 +1,22 @@
-# GitOps Principles {{version}}
+# Zasady GitOps (ang. GitOps Principles) {{version}}
 
-GitOps is a set of principles for operating and managing software systems.
-These principles are derived from modern software operations, but are also rooted in pre-existing and widely adopted best practices.
+GitOps to zbiór zasad obsługi i zarządzania systemami oprogramowania.
+Zasady te wywodzą się z nowoczesnych operacji programistycznych, ale są również zakorzenione w istniejących i powszechnie stosowanych najlepszych praktykach.
 
-The [desired state](./GLOSSARY.md#desired-state) of a GitOps managed system must be:
+[Pożądany Stan](./GLOSSARY_pl.md#pożądany-stan) w systemie zarządzanym przez GitOps musi być: 
 
-1. ## Declarative
+1. ## Deklaratywny (ang. Declarative)
 
-    A [system](./GLOSSARY.md#software-system) managed by GitOps must have its desired state expressed [declaratively](./GLOSSARY.md#declarative-description).
+    [System](./GLOSSARY_pl.md#system-oprogramowania) zarządzanego przez GitOps musi mieć swój  pożądany stan określony [deklaratywnie](./GLOSSARY_pl.md#opis-deklaratywny).
 
-2. ## Versioned and Immutable
+2. ## Wersjonowany and Niezmienny (ang. Versioned and Immutable)
 
-    Desired state is [stored](./GLOSSARY.md#state-store) in a way that enforces immutability, versioning and retains a complete version history.
+    Pożądany stan jest przechowywany w [magazynie stanow](./GLOSSARY_pl.md#magazyn-stanów) w sposób, który wymusza niezmienność, wersjonowanie i zachowuje pełną historię wersji.
 
-3. ## Pulled Automatically
+3. ## Ściągany automatycznie (ang. Pulled Automatically)
 
-    Software agents automatically [pull](./GLOSSARY.md#pull) the desired state declarations from the source.
+    Agenci automatycznie [ściągają](./GLOSSARY_pl.md#ściąganienie) pożądany stan z deklaracji źródłowej.
 
-4. ## Continuously Reconciled
+4. ## Stale uzgadniany (ang. Continuously Reconciled)
 
-    Software agents [continuously](./GLOSSARY.md#continuous) observe actual system state and [attempt to apply](./GLOSSARY.md#reconciliation) the desired state.
+    Agenci [w sposób ciągły](./GLOSSARY.md#ciągły) obserwują rzeczywisty stan systemu i [próbują zaaplikować](./GLOSSARY.md#uzgadnianie) pożądany stan.
