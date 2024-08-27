@@ -15,7 +15,8 @@ Ten glosariusz jest powiązany z [Zasady GitOps](./PRINCIPLES_pl.md) i innymi do
 Agregacja wszystkich danych dotyczących konfiguracji, które wystarczają żeby odtworzyć system w taki sposób, żeby instancje systemu były behawioralnie nie do odróżnienia.
 Te dane konfiguracyjne generalnie nie zawieraja trwałych danych aplikacji, jak na przykład zawartość bazy danych, chociaż często zawiera poświadczenia dostępu do tych danych lub konfigurację narzędzi do odzyskiwania danych działających w tym systemie.
     
-- ## Dryf (ang. Drift)
+- ## Dryf 
+(ang. Drift)
 
 Kiedy rzeczywisty stan systemu przesunął się lub jest w trakcie oddalania się od [stanu pożądanego](#stan-pożądany), często określa się to jako dryf.
 
@@ -32,9 +33,9 @@ Kiedy rzeczywisty stan systemu przesunął się lub jest w trakcie oddalania si�
     W przeciwieństwie do tradycyjnego CI/CD, gdzie automatyzacja jest zazwyczaj wyzwalana przez wstępnie ustawione triggery, w GitOps uzgadnianie jest inicjowane zawsze kiedy występuje rozbieżność. Rozbieżność może być spowodowana niezamierzonym [dryftem](#dryft) rzeczywistego stanu od deklaracji pożądanego stanu lub celową zmianą wersji deklaracji pożądanego stanu.
     Działania są podejmowane na podstawie zasad dotyczących [opinii](/GLOSSARY_pl.md-opinie) systemu oraz wcześniejszych prób uzgadniania, w celu zmniejszenia dewjacji w czasie.
 
-- ## System oprogramowania (ang. Software System)
+- ## System (ang. Software System)
 
-    System oprogramowania zarządzany przez GitOps zawiera:
+    System zarządzany przez GitOps zawiera:
 
     1. Jeden lub więcej środowisk wykonawczych składających się z zasobów podlegających zarządzaniu
     1. Agentów zarządzających każde środowisko wykonawcze
