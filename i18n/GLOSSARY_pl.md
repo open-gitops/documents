@@ -10,7 +10,7 @@ Ten glosariusz jest powiązany z [Zasady GitOps](./PRINCIPLES_pl.md) i innymi do
 
     Konfiguracja, która opisuje pożądanany stan systemu, bez podawania specyficznych procedur określających w jaki sposób ten stan będzie osiagniety. To oddziela konfigurację stanu pożądanego (pożądany-stan) od implementacji (commands, API calls, scripts etc.) używanej do osiągniecia tego stanu.
 
-- ## Stan Pożądany (ang. Desired State)
+- ## Pożądany Stan (ang. Desired State)
 
 Agregacja wszystkich danych dotyczących konfiguracji, które wystarczają żeby odtworzyć system w taki sposób, żeby instancje systemu były behawioralnie nie do odróżnienia.
 Te dane konfiguracyjne generalnie nie zawieraja trwałych danych aplikacji, jak na przykład zawartość bazy danych, chociaż często zawiera poświadczenia dostępu do tych danych lub konfigurację narzędzi do odzyskiwania danych działających w tym systemie.
