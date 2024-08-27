@@ -32,9 +32,9 @@ Kiedy rzeczywisty stan systemu przesunął się lub jest w trakcie oddalania si�
     W przeciwieństwie do tradycyjnego CI/CD, gdzie automatyzacja jest zazwyczaj wyzwalana przez wstępnie ustawione triggery, w GitOps uzgadnianie jest inicjowane zawsze kiedy występuje rozbieżność. Rozbieżność może być spowodowana niezamierzonym [dryftem](#dryft) rzeczywistego stanu od deklaracji pożądanego stanu lub celową zmianą wersji deklaracji pożądanego stanu.
     Działania są podejmowane na podstawie zasad dotyczących [opinii](/GLOSSARY_pl.md-opinie) systemu oraz wcześniejszych prób uzgadniania, w celu zmniejszenia dewjacji w czasie.
 
-- ## System (ang. Software System)
+- ## System oprogramowania (ang. Software System)
 
-    System zarządzany przez GitOps zawiera:
+    System oprogramowania zarządzany przez GitOps zawiera:
 
     1. Jeden lub więcej środowisk wykonawczych składających się z zasobów podlegających zarządzaniu
     1. Agentów zarządzających każde środowisko wykonawcze
