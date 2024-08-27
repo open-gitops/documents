@@ -19,4 +19,4 @@ Zasady te wywodzą się z nowoczesnych operacji programistycznych, ale są równ
 
 4. ## Stale uzgadniany (ang. Continuously Reconciled)
 
-    Agenci [w sposób ciągły](./GLOSSARY.md#ciągły) obserwują rzeczywisty stan systemu i [próbują zaaplikować](./GLOSSARY.md#uzgadnianie) pożądany stan.
+    Agenci [w sposób ciągły](./GLOSSARY_pl.md#ciągły) obserwują rzeczywisty stan systemu i [próbują zaaplikować](./GLOSSARY_pl.md#uzgadnianie) pożądany stan.
