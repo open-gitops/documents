@@ -15,8 +15,7 @@ Ten glosariusz jest powiązany z [Zasady GitOps](./PRINCIPLES_pl.md) i innymi do
 Agregacja wszystkich danych dotyczących konfiguracji, które wystarczają żeby odtworzyć system w taki sposób, żeby instancje systemu były behawioralnie nie do odróżnienia.
 Te dane konfiguracyjne generalnie nie zawieraja trwałych danych aplikacji, jak na przykład zawartość bazy danych, chociaż często zawiera poświadczenia dostępu do tych danych lub konfigurację narzędzi do odzyskiwania danych działających w tym systemie.
     
-- ## Dryf 
-(ang. Drift)
+- ## Dryf (ang. Drift)
 
 Kiedy rzeczywisty stan systemu przesunął się lub jest w trakcie oddalania się od [stanu pożądanego](#stan-pożądany), często określa się to jako dryf.
 
