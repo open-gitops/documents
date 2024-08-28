@@ -1,6 +1,6 @@
 # Glosariusz GitOps {{version}}
 
-Ten glosariusz powiązany jest z [Zasady GitOps](./PRINCIPLES_pl.md) i innymi dokumentami pomocniczymi w tym repozytorium. 
+Ten glosariusz powiązany jest z [Zasadami GitOps](./PRINCIPLES_pl.md) i innymi dokumentami pomocniczymi w tym repozytorium. 
 
 - ## Ciągły 
 
