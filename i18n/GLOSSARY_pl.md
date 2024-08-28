@@ -4,7 +4,7 @@ Ten glosariusz jest powiązany z [Zasady GitOps](./PRINCIPLES_pl.md) i innymi do
 
 - ## Ciągły (ang. Continuous)
 
-"Ciągły" jest związany ze standardowym terminem: [Uzgadnianie](#Uzgadnianie) (ang. Reconciliation) co oznacza, że następuje to ciągle, ale nie oznacza to, że musi to nastąpic natychmiastowo.
+"Ciągły" jest związany ze standardowym terminem: [Uzgadnianie](#Uzgadnianie (ang. Reconciliation)) co oznacza, że następuje to ciągle, ale nie oznacza to, że musi to nastąpic natychmiastowo.
 
 - ## Opis Deklaratywny (ang. Declarative Description)
 
