@@ -2,9 +2,9 @@
 
 Ten glosariusz jest powiązany z [Zasady GitOps](./PRINCIPLES_pl.md) i innymi dokumentami pomocniczymi w tym repozytorium. 
 
-- ## Ciągły (ang. Continuous)
+- ## Ciągły 
 
-"Ciągły" jest związany ze standardowym terminem: [Uzgadnianie](#Uzgadnianie) co oznacza, że następuje to ciągle, ale nie oznacza to, że musi to nastąpic natychmiastowo.
+"Ciągły" (ang. Continuous)jest związany ze standardowym terminem: [Uzgadnianie](#Uzgadnianie) co oznacza, że następuje to ciągle, ale nie oznacza to, że musi to nastąpic natychmiastowo.
 
 - ## Opis Deklaratywny (ang. Declarative Description)
 
@@ -28,17 +28,17 @@ Kiedy rzeczywisty stan systemu przesunął się lub jest w trakcie oddalania si�
 
 - ## Uzgadnianie
 
-   Uzgadnianie (agn. Reconciliation) jest to proces mający na celu zapewnienie, że rzeczywisty stan systemu odpowiada [pożądanemu stanowi](#stan-pożądany).
+Uzgadnianie (agn. Reconciliation) jest to proces mający na celu zapewnienie, że rzeczywisty stan systemu odpowiada [pożądanemu stanowi](#stan-pożądany).
     W przeciwieństwie do tradycyjnego CI/CD, gdzie automatyzacja jest zazwyczaj wyzwalana przez wstępnie ustawione triggery, w GitOps uzgadnianie jest inicjowane zawsze kiedy występuje rozbieżność. Rozbieżność może być spowodowana niezamierzonym [dryftem](#dryft) rzeczywistego stanu od deklaracji pożądanego stanu lub celową zmianą wersji deklaracji pożądanego stanu.
     Działania są podejmowane na podstawie zasad dotyczących [opinii](/GLOSSARY_pl.md-opinie) systemu oraz wcześniejszych prób uzgadniania, w celu zmniejszenia dewjacji w czasie.
 
-- ## System oprogramowania (ang. Software System)
+- ## System oprogramowania
 
-    System oprogramowania zarządzany przez GitOps zawiera:
+System oprogramowania (ang. Software System)a zarządzany przez GitOps zawiera:
 
-    1. Jeden lub więcej środowisk wykonawczych składających się z zasobów podlegających zarządzaniu
-    1. Agentów zarządzających każde środowisko wykonawcze
-    1. Zasady kontrolowania dostępu i zarządzania repozytoriami, wdrożeniami i środowiskami wykonawczymi
+1. Jeden lub więcej środowisk wykonawczych składających się z zasobów podlegających zarządzaniu
+1. Agentów zarządzających każde środowisko wykonawcze
+1. Zasady kontrolowania dostępu i zarządzania repozytoriami, wdrożeniami i środowiskami wykonawczymi
 
 - ## Maganzyn Stanów (ang. State Store)
 
