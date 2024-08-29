@@ -9,9 +9,9 @@ Zasady te wywodzą się z nowoczesnych operacji programistycznych, ale są równ
 
     [System oprogramowania](./GLOSSARY_pl.md#system-oprogramowania) zarządzany przez GitOps musi mieć swój  pożądany stan określony [deklaratywnie](./GLOSSARY_pl.md#opis-deklaratywny).
 
-2. ## Wersjonowany and Niezmienny (ang. Versioned and Immutable)
+2. ## Wersjonowany i Niezmienny (ang. Versioned and Immutable)
 
-    Pożądany stan jest przechowywany w [magazynie stanow](./GLOSSARY_pl.md#magazyn-stanów) w sposób, który wymusza niezmienność, wersjonowanie i zachowuje pełną historię wersji.
+    Pożądany stan jest przechowywany w [magazynie stanów](./GLOSSARY_pl.md#magazyn-stanów) w sposób, który wymusza niezmienność, wersjonowanie i zachowuje pełną historię wersji.
 
 3. ## Ściągany automatycznie (ang. Pulled Automatically)
 
