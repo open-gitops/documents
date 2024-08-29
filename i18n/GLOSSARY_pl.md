@@ -36,9 +36,9 @@ Te dane konfiguracyjne generalnie nie zawierają trwałych danych aplikacji, jak
 
     System oprogramowania (ang. Software System) zarządzany przez GitOps zawiera:
 
-  1. Jeden lub więcej środowisk wykonawczych składających się z zasobów podlegających zarządzaniu
-  1. Agentów zarządzających każdym środowiskiem wykonawczym
-    1. Zasady kontrolowania dostępu i zarządzania repozytoriami, wdrożeniami i środowiskami wykonawczymi
+1. Jeden lub więcej środowisk wykonawczych składających się z zasobów podlegających zarządzaniu
+1. Agentów zarządzających każdym środowiskiem wykonawczym
+1. Zasady kontrolowania dostępu i zarządzania repozytoriami, wdrożeniami i środowiskami wykonawczymi
 
 - ## Magazyn Stanów 
 
