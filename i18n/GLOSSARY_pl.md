@@ -34,18 +34,18 @@ Te dane konfiguracyjne generalnie nie zawierają trwałych danych aplikacji, jak
 
 - ## System oprogramowania
 
-System oprogramowania (ang. Software System) zarządzany przez GitOps zawiera:
+    System oprogramowania (ang. Software System) zarządzany przez GitOps zawiera:
 
-1. Jeden lub więcej środowisk wykonawczych składających się z zasobów podlegających zarządzaniu
-1. Agentów zarządzających każdym środowiskiem wykonawczym
-1. Zasady kontrolowania dostępu i zarządzania repozytoriami, wdrożeniami i środowiskami wykonawczymi
+    1. Jeden lub więcej środowisk wykonawczych składających się z zasobów podlegających zarządzaniu
+    1. Agentów zarządzających każdym środowiskiem wykonawczym
+    1. Zasady kontrolowania dostępu i zarządzania repozytoriami, wdrożeniami i środowiskami wykonawczymi
 
 - ## Magazyn Stanów 
 
     Maganzyn Stanów (ang. State Store) to system służący do przechowywania niezmiennych wersji deklaracji [stanu pożądanego](#pożądany-stan).
     Magazyn stanów powinien umożliwiać kontrolę dostępu i audyt zmian stanu pożądanego.     
     Git, od którego GitOps wzięło swoją nazwę, jest kanonicznym przykładem używanym jako magazyn stanów, ale można użyć dowolnego innego systemu spełniającego te kryteria.
-    We wszystkich przypadkach magazyny stanów muszą być prawidłowo skonfigurowane i należy podjąć środki ostrożności, aby spełnić wymagania określone w [Zasadach GitOps] (./PRINCIPLES_pl.md).
+    We wszystkich przypadkach magazyny stanów muszą być prawidłowo skonfigurowane i należy podjąć środki ostrożności, aby spełnić wymagania określone w [Zasadach GitOps](./PRINCIPLES_pl.md).
 
 - ## Opinie
 
