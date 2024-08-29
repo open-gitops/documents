@@ -28,7 +28,7 @@ Te dane konfiguracyjne generalnie nie zawierają trwałych danych aplikacji, jak
 
 - ## Uzgadnianie
 
-Uzgadnianie (ang. Reconciliation) jest to proces mający na celu zapewnienie, że rzeczywisty stan systemu odpowiada [pożądanemu stanowi](#stan-pożądany).
+    Uzgadnianie (ang. Reconciliation) jest to proces mający na celu zapewnienie, że rzeczywisty stan systemu odpowiada [pożądanemu stanowi](#pożądany-stan).
     W przeciwieństwie do tradycyjnego CI/CD, gdzie automatyzacja jest zazwyczaj wyzwalana przez wstępnie ustawione triggery, w GitOps uzgadnianie jest inicjowane zawsze kiedy występuje rozbieżność. Rozbieżność może być spowodowana niezamierzonym [dryftem](#dryf) rzeczywistego stanu od deklaracji pożądanego stanu lub celową zmianą wersji deklaracji pożądanego stanu.
     Działania uzgadniania są podejmowane na podstawie zasad dotyczących [opinii](/GLOSSARY_pl.md-opinie) systemu oraz wcześniejszych prób uzgadniania, w celu zmniejszenia dewjacji w czasie.
 
