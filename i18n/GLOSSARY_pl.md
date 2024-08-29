@@ -40,7 +40,7 @@ System oprogramowania (ang. Software System) zarządzany przez GitOps zawiera:
 1. Agentów zarządzających każdym środowiskiem wykonawczym
 1. Zasady kontrolowania dostępu i zarządzania repozytoriami, wdrożeniami i środowiskami wykonawczymi
 
-- ## Maganzyn Stanów (ang. State Store)
+- ## Maganzyn Stanów 
 
     Maganzyn Stanów (ang. State Store) to system służący do przechowywania niezmiennych wersji deklaracji [stanu pożądanego](#pożądany-stan).
     Magazyn stanów powinien umożliwiać kontrolę dostępu i audyt zmian stanu pożądanego.     
