@@ -8,7 +8,7 @@ Ten glosariusz powiązany jest z [Zasadami GitOps](./PRINCIPLES_pl.md) i innymi 
 
 - ## Opis Deklaratywny 
 
-    Opis Deklaratywny (ang. Declarative Description) to konfiguracja, która opisuje pożądanany stan systemu, bez podawania specyficznych procedur określających w jaki sposób ten stan będzie osiagniety. To oddziela konfigurację [stanu pożądanego] (#pożądany-stan) od implementacji (commands, API calls, skrypty itp.) używanej do osiągniecia tego stanu.
+    Opis Deklaratywny (ang. Declarative Description) to konfiguracja, która opisuje pożądanany stan systemu, bez podawania specyficznych procedur określających w jaki sposób ten stan będzie osiagniety. To oddziela konfigurację [stanu pożądanego](#pożądany-stan) od implementacji (commands, API calls, skrypty itp.) używanej do osiągniecia tego stanu.
 
 - ## Pożądany Stan
 
