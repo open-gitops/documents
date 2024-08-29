@@ -17,7 +17,7 @@ Te dane konfiguracyjne generalnie nie zawierają trwałych danych aplikacji, jak
     
 - ## Dryf
 
-    Dryf (ang. Drift) oznacza kiedy rzeczywisty stan systemu przesunął się lub jest w trakcie oddalania się od [stanu pożądanego](#stan-pożądany).
+    Dryf (ang. Drift) oznacza kiedy rzeczywisty stan systemu przesunął się lub jest w trakcie oddalania się od [stanu pożądanego](#pożądany-stan).
 
 - ## Ściąganie 
 
