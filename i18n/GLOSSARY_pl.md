@@ -21,10 +21,10 @@ Te dane konfiguracyjne generalnie nie zawierają trwałych danych aplikacji, jak
 
 - ## Ściąganie 
 
-  Ściąganie (ang. Pull) - [3 Zasada GitOps](./PRINCIPLES_pl.md) (Pulled Automatycznie) określa, że ​​pożądany stan musi zostać ściągany (pulled), a nie wypchnięty (pushed), przede wszystkim dlatego, że agent musi mieć możliwość dostępu do [pożądanego stanu](#pożądany-stan) z [magazynu stanów](#magazyn-stanów) w dowolnym momencie, a nie tylko wtedy, gdy nastąpi celowa zmiana w magazynie stanów wyzwaląjca push event.
-    Jest to warunek konieczny, aby [uzgadnianie](#uzgadnianie) odbywało się [ciągle](#Ciągły), jak określono w [zasadzie 4](./PRINCIPLES.md) (Ciągle uzgadniany).
+  Ściąganie (ang. Pull) - [3 Zasada GitOps](./PRINCIPLES_pl.md) (Ściągany automatycznie) określa, że ​​pożądany stan musi zostać ściągany (pulled), a nie wypchnięty (pushed), przede wszystkim dlatego, że agent musi mieć możliwość dostępu do [pożądanego stanu](#pożądany-stan) z [magazynu stanów](#magazyn-stanów) w dowolnym momencie, a nie tylko wtedy, gdy nastąpi celowa zmiana w magazynie stanów wyzwaląjca push event.
+    Jest to warunek konieczny, aby [uzgadnianie](#uzgadnianie) odbywało się [ciągle](#Ciągły), jak określono w [zasadzie 4](./PRINCIPLES_pl.md) (Ciągle uzgadniany).
     Należy pamiętać, że w przeciwieństwie do tradycyjnego CI/CD, gdzie automatyzacja jest zazwyczaj wyzwalana przez wstępnie ustawione triggery – w GitOps [uzgadnianie](#uzgadnianie) jest wyzwalane zawsze kiedy występuje rozbieżność.
-    Rozbieżność może być spowodowana niezamierzonym [dryftem](#dryft) rzeczywistego stanu od deklaracji pożądanego stanu a nie tylko celową zmianą wersji deklaracji pożądanego stanu.
+    Rozbieżność może być spowodowana niezamierzonym [dryftem](#dryf) rzeczywistego stanu od deklaracji pożądanego stanu, a nie tylko celową zmianą wersji deklaracji pożądanego stanu.
 
 - ## Uzgadnianie
 
