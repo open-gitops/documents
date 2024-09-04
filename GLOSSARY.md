@@ -21,8 +21,8 @@ This glossary accompanies the [GitOps Principles](./PRINCIPLES.md), and other su
     
 - ## Pull
 
-    [Principle 3](./PRINCIPLES.md) specifies the desired state must be "pulled" rather than "pushed", primarily because the software agents must be able to access the [desired state](#desired-state) from the [state store](#state-store) at _any_ time, not only when there is an intentional change in the state store triggering a push event.
-    This is a prerequisite for [reconciliation](#reconciliation) to happen [continuously](#continuous), as specified in [principle 4](./PRINCIPLES.md).
+    [Principle 3](./PRINCIPLES.md) (Pulled Automatically) specifies the desired state must be "pulled" rather than "pushed", primarily because the software agents must be able to access the [desired state](#desired-state) from the [state store](#state-store) at _any_ time, not only when there is an intentional change in the state store triggering a push event.
+    This is a prerequisite for [reconciliation](#reconciliation) to happen [continuously](#continuous), as specified in [principle 4](./PRINCIPLES.md) (Continuously Reconciled).
     Note that – in contrast to traditional CI/CD, where automation is generally driven by pre-set triggers – in GitOps, [reconciliation](#reconciliation) is triggered _whenever_ there is a divergence.
     Divergence could be due to the actual state unintentionally [drifting](#drift) from the desired state declarations – not only due to a new desired state declaration version having been changed intentionally.
 
