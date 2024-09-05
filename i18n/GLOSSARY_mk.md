@@ -4,7 +4,7 @@
 
 - ## Непрекинато
 
-    „Непрекинато“ е наменето да одговара на стандардниот термин во индустријата: [хармонијата](#reconciliation) продолжува да се воспоставува, но не мора да се случи веднаш.
+    „Непрекинато“ е наменето да одговара на стандардниот термин во индустријата: [хармонијата](#хармонија) продолжува да се воспоставува, но не мора да се случи веднаш.
 
 - ## Декларативен опис
 
@@ -17,37 +17,37 @@
 
 - ## Лизгање
 
-    Кога вистинската состојба на системот е поместена или е во процес на оддалечување од [посакуваната состојба](#desired-state), ова често се нарекува лизгање.
+    Кога вистинската состојба на системот е поместена или е во процес на оддалечување од [посакуваната состојба](#посакувана-состојба), ова често се нарекува лизгање.
 
 - ## Повлекување
 
-    [Принципот бр. 3](./PRINCIPLES_mk.md) (Повлечена автоматски) одредува дека [посакуваната состојба](#desired-state) мора да се „влече“ наместо да се „турка“, главно затоа што софтверските агенти мора да бидат во можност да пристапат до посакуваната состојба во т.н. [записник на состојби](#state-store) во било кое време, а не само кога има намерна промена во записникот што предизвикува некој настан на „туркање“.
-    Ова е предуслов за [хармонијата](#reconciliation) да се воспоставува [непрекинато](#continuous), како што е предвидено во [принципот бр. 4](./PRINCIPLES_mk.md) (Постојано хармонична).
-    Забележете дека - за разлика од традиционалните „CI/CD“, каде што автоматизацијата генерално е управувана од предефинирани активатори - во „GitOps“, [хармонијата](#reconciliation) се воспоставува _секогаш_ кога има дивергенција.
-    Дивергенцијата може да се должи на ненамерното [лизгање](#drift) од посакуваната состојба - не само поради намерна промена на верзијата.
+    [Принципот бр. 3](./PRINCIPLES_mk.md) (Повлечена автоматски) одредува дека [посакуваната состојба](#посакувана-состојба) мора да се „влече“ наместо да се „турка“, главно затоа што софтверските агенти мора да бидат во можност да пристапат до посакуваната состојба во т.н. [записник на состојби](#записник-на-состојби) во било кое време, а не само кога има намерна промена во записникот што предизвикува некој настан на „туркање“.
+    Ова е предуслов за [хармонијата](#хармонија) да се воспоставува [непрекинато](#непрекинато), како што е предвидено во [принципот бр. 4](./PRINCIPLES_mk.md) (Постојано хармонична).
+    Забележете дека - за разлика од традиционалните „CI/CD“, каде што автоматизацијата генерално е управувана од предефинирани активатори - во „GitOps“, [хармонијата](#хармонија) се воспоставува _секогаш_ кога има дивергенција.
+    Дивергенцијата може да се должи на ненамерното [лизгање](#лизгање) од посакуваната состојба - не само поради намерна промена на верзијата.
 
-- ## Reconciliation
+- ## Хармонија
 
-    The process of ensuring the actual state of a system matches its [desired state](#desired-state).
-    Contrary to traditional CI/CD where automation is generally driven by pre-set triggers, in GitOps reconciliation is triggered whenever there is a divergence. Divergence could be due to the actual state unintentionally [drifting](#drift) from the desired state declarations, or a new desired state declaration version having been changed intentionally.
-    Actions are taken based on policies around [feedback](./GLOSSARY.md#feedback) from the system and previous reconciliation attempts, in order to reduce deviation over time.
+    Процесот преку којшто се осигуруваме дека тековната состојба на системот се совпаѓа со неговата [посакувана состојба](#посакувана-состојба).
+    Спротивно на традиционалните „CI/CD“ каде што автоматизацијата генерално е управувана од предефинирани активатори, во „GitOps“ усогласувањето се активира секогаш кога има дивергенција. Дивергенцијата може да се должи на ненамерно [лизгање](#лизгање) од посакуваната состојба или пак со намерна промена на нејзината верзија.
+    Акциите се преземаат врз основа на политиките околу [повратните информации](./GLOSSARY_mk.md#feedback) од системот и претходните обиди за хармонија, со цел да се намалат отстапувањата со текот на времето.
 
-- ## Software System
+- ## Софтверски систем
 
-    A software system managed by GitOps includes:
+    Еден софтверски систем управуван од „GitOps“ содржи:
 
-    1. One or more runtime environments consisting of resources under management
-    2. The management agents within each runtime
-    3. Policies for controlling access and management of repositories, deployments, runtimes
+    1. Една или повеќе работни околини составени од управувани ресурси
+    2. Агентите за управување во секој циклус на извршување
+    3. Политики за контролирање на пристапот и управување со складишта, редоследи, времетраења на извршување
 
-- ## State Store
+- ## Записник на состојби
 
-    A system for storing immutable versions of [desired state](#desired-state) declarations.
-    This state store should provide access control and auditing on the changes to the Desired State.
-    Git, from which GitOps derives its name, is the canonical example used as this state store but any other system that meets these criteria may be used.
-    In all cases, these state stores must be properly configured and precautions must be taken to comply with requirements set out in the GitOps Principles.
+    Систем за складирање на непроменливи верзии на декларации за [посакуваната состојба](#посакувана-состојба).
+    Записникот на состојби треба да обезбеди контрола на пристап и ревизија на промените на Посакуваната состојба.
+    „Git“, од кој „GitOps“ го добива своето име, е канонскиот пример за ваков записник, но може да се користи кој било друг систем што ги исполнува овие критериуми.
+    Во сите случаи, овие записници на состојби мора да бидат правилно конфигурирани и мора да се преземат мерки на претпазливост за да се усогласат со барањата утврдени во Принципите на „GitOps“.
 
-- ## Feedback
+- ## Повратни информации
 
-    Open GitOps follows [control-theory](https://en.wikipedia.org/wiki/Control_theory) and operates in a closed-loop. In control theory, feedback represents how previous attempts to apply a desired state have affected the actual state. For example if the desired state requires more resources than exist in a system, the software agent may make attempts to add resources, to automatically rollback to a previous version, or to send alerts to human operators.
+    „Open GitOps“ ја следи [теоријата на контрола](https://en.wikipedia.org/wiki/Control_theory) и работи во затворена јамка. Во теоријата на контрола, повратната информација прикажува како претходните обиди да се стигне до посакуваната состојба влијаеле на тековната состојба. На пример, ако посакуваната состојба бара повеќе ресурси отколку што постојат во системот, софтверскиот агент може да се обиде да додаде ресурси, автоматски да се врати на претходната верзија или да испрати предупредувања до човечките оператори.
 
