@@ -13,9 +13,9 @@ O [estado desejado](./GLOSSARY_pt.md#estado-desejado) de um sistema gerenciado p
 
     O estado desejado é [armazenado](./GLOSSARY_pt.md#armazenamento-de-estado) de uma forma que impõe imutabilidade, controle de versão e retém um histórico de versão completo.
 
-3. ## Obtido Automaticamente
+3. ## Puxado Automaticamente
 
-    Os agentes de software extraem automaticamente as declarações de estado desejadas da origem.
+    Os agentes de software puxam ("pull") automaticamente as declarações de estado desejadas da origem.
 
 4. ## Conciliação Contínua
 
