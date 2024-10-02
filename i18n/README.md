@@ -2,7 +2,7 @@
 
 | Language | Principles                       | Glossary                    |
 | -------- | -------------------------------- | --------------------------- |
-| German   | [Prinzipien](./PRINCIPLES_de.md) | [Glossar](./GLOSSARY_de.md) |
-| Spanish   | [Principios](./PRINCIPLES_es.md) | [Glosario](./GLOSSARY_es.md) |
-| Portuguese | [Pincípios](./PRINCIPLES_pt.md) | [Glossário](./GLOSSARY_pt.md) |
-| French   | [Principes](./PRINCIPLES_fr.md) | [Glossaire](./GLOSSARY_fr.md) |
+| Deutsch (German) | [Prinzipien](./PRINCIPLES_de.md) | [Glossar](./GLOSSARY_de.md) |
+| Español (Spanish) | [Principios](./PRINCIPLES_es.md) | [Glosario](./GLOSSARY_es.md) |
+| Português (Portuguese) | [Pincípios](./PRINCIPLES_pt.md) | [Glossário](./GLOSSARY_pt.md) |
+| Français (French) | [Principes](./PRINCIPLES_fr.md) | [Glossaire](./GLOSSARY_fr.md) |
