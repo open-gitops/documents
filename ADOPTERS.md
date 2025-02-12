@@ -30,7 +30,7 @@ Currently, the following organizations are **officially** using GitOps:
 1. [Deutsche Bahn](https://www.deutschebahn.com/en)
 1. [Docker](https://www.docker.com/)
 1. [Dynatrace](https://www.dynatrace.com/)
-1. [Dynatrace & CDF](https://www.dynatrace.com/continuous1. delivery/)
+1. [Dynatrace & CDF](https://www.dynatrace.com/)
 1. [effx](https://effx.co/)
 1. [Fairwinds](https://www.fairwinds.com/)
 1. [Finch](https://www.finch.com/)
