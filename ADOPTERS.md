@@ -59,7 +59,6 @@ Currently, the following organizations are **officially** using GitOps:
 1. [Salesforce](https://www.salesforce.com/)
 1. [Schwarz IT](https://www.schwarzit.com/)
 1. [Snyk](https://snyk.io/)
-1. [Stackm8 / Weaveworks](https://www.weave.works/)
 1. [Stytch](https://www.stytch.com/)
 1. [Syncier](https://www.syncier.com/)
 1. [Thrivent](https://www.thrivent.com/)
