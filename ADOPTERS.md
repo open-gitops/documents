@@ -50,7 +50,7 @@ Currently, the following organizations are **officially** using GitOps:
 1. [Microsoft](https://www.microsoft.com/)
 1. [Morgan Stanley](https://www.morganstanley.com/)
 1. [Octo Technology](https://www.octo.com/)
-1. [Orange Business Services](https://www.orange1. business.com/)
+1. [Orange Business Services](https://www.orange-business.com/)
 1. [PCCW Solutions](https://www.pccwsolutions.com/)
 1. [PingCAP](https://www.pingcap.com/)
 1. [Rally Health](https://www.rallyhealth.com/)
