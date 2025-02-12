@@ -68,7 +68,6 @@ Currently, the following organizations are **officially** using GitOps:
 1. [uShip](https://www.uship.com/)
 1. [Verifa](https://www.verifa.io/)
 1. [Vmware](https://www.vmware.com/)
-1. [Weaveworks](https://www.weave.works/)
 1. [Workday](https://www.workday.com/)
 
 Let me know if you need more assistance!
