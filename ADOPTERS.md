@@ -69,4 +69,3 @@ Currently, the following organizations are **officially** using GitOps:
 1. [Vmware](https://www.vmware.com/)
 1. [Workday](https://www.workday.com/)
 
-Let me know if you need more assistance!
