@@ -25,7 +25,7 @@ Este glosario acompaña a los [Principios de GitOps](./PRINCIPLES_es.md), y otro
 - ## Reconciliación
 
     El proceso de asegurar que el estado actual de un sistema coincide con su [estado deseado](#estado-deseado).
-    Contrario al IC/DC tradicional, en el que la automatización generalmente es manejada por los activadores (triggers) preestablecidos, en GitOps la reconciliación se activa siempre que haya una divergencia. La divergencia puede darse al estado actual intencional de [desvio] (#desvio) de las declaraciones del estado deseado, no solamente debido a una nueva versión de declaración de estado deseado que haya sido cambiado intencionalmente. Se toman acciones basadas en las políticas entorno a la reconciliación [feedback](#Reconciliación) del sistema e intentos previos de reconciliación, con el fin de reducir la desviación en el tiempo.
+    Contrario al IC/DC tradicional, en el que la automatización generalmente es manejada por los activadores (triggers) preestablecidos, en GitOps la reconciliación se activa siempre que haya una divergencia. La divergencia puede darse al estado actual intencional de [desvio](#desvio) de las declaraciones del estado deseado, no solamente debido a una nueva versión de declaración de estado deseado que haya sido cambiado intencionalmente. Se toman acciones basadas en las políticas entorno a la reconciliación [feedback](#Reconciliación) del sistema e intentos previos de reconciliación, con el fin de reducir la desviación en el tiempo.
 
 - ## Sistema de software
 
