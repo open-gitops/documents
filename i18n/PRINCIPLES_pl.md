@@ -7,7 +7,7 @@ Zasady te wywodzą się z nowoczesnych operacji programistycznych, ale są równ
 
 1. ## Deklaratywny (ang. Declarative)
 
-    [System oprogramowania](./GLOSSARY_pl.md#system-oprogramowania) zarządzany przez GitOps musi mieć swój  pożądany stan określony [deklaratywnie](./GLOSSARY_pl.md#opis-deklaratywny).
+    [System oprogramowania](./GLOSSARY_pl.md#system-oprogramowania) zarządzany przez GitOps musi mieć swój pożądany stan określony [deklaratywnie](./GLOSSARY_pl.md#opis-deklaratywny).
 
 2. ## Wersjonowany i Niezmienny (ang. Versioned and Immutable)
 
