@@ -20,14 +20,19 @@ Dieses Glossar begleitet die [GitOps-Prinzipien](./PRINCIPLES_de.md) und andere 
 
     Abweichung bezeichnet eine (beginnende) Entfernung des Ist-Zustandes eines Systems vom gewünschten [Soll-Zustand](#soll-zustand).
 
+- ## Beziehen der Änderungen (Pull)
+
+
+    [Prinzip 3](./PRINCIPLES_de.md) (Automatisch bezogen) spezifiziert, dass der gewünschte Zustand "gezogen" (Pull) statt von außen "gedrückt" (Push), werden muss, hauptsächlich weil die Software-Agenten in der Lage sein müssen, den gewünschten Zustand aus dem Zustandsspeicher zu jeder Zeit abzurufen – nicht nur dann, wenn es eine absichtliche Änderung im Zustandsspeicher gibt, die ein Push-Ereignis auslöst.
+    Dies ist eine Voraussetzung dafür, dass die [Angleichung](#Angleichung) [kontinuierlich](#kontinuierlich) erfolgen kann, wie in [Prinzip 4](./PRINCIPLES_de.md) (Kontinuierlich angeglichen) spezifiziert.
+    Beachte, dass – im Gegensatz zu traditionellem CI/CD, bei dem Automatisierung in der Regel durch vordefinierte Auslöser gesteuert wird – im GitOps die [Angleichung](#Angleichung) _immer_ dann ausgelöst wird, wenn eine Abweichung vorliegt.
+    Eine [Abweichung](#Abweichung) könnte dadurch entstehen, dass sich der tatsächliche Zustand unbeabsichtigt vom erklärten [Soll-Zustand](#Soll-Zustand) entfernt – nicht nur aufgrund einer neuen Version des gewünschten Soll-Zustands, die absichtlich geändert wurde.
+
 - ## Angleichung
 
     Der Prozess, bei dem sichergestellt wird, dass der tatsächliche Zustand eines Systems mit seinem [Soll-Zustand](#soll-zustand) übereinstimmt.
-    
     Im Gegensatz zur traditionellen CI/CD, bei der die Automatisierung im Allgemeinen durch voreingestellte Auslöser gesteuert wird, wird bei GitOps die Angleichung immer dann ausgelöst, wenn eine Abweichung vorliegt.
-
     Die [Abweichung](#abweichung) kann darauf zurückzuführen sein, dass sich der Ist-Zustand unbeabsichtigt geändert hat oder dass eine neue Version der Soll-Zustands-Beschreibung vorliegt.
-
     Auf der Grundlage von Richtlinien und [Feedback](#feedback) des Systems sowie früherer Angleichungsversuche werden Maßnahmen ergriffen, um die Abweichung im Laufe der Zeit zu verringern.
 
 - ## Softwaresystem
